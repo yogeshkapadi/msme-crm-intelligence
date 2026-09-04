@@ -20,3 +20,36 @@ a{color:inherit}.app{display:flex;min-height:100vh}.sidebar{width:238px;backgrou
 
 .section-title{font-size:18px;margin:22px 0 12px;display:flex;align-items:center;gap:9px}.section-title span{font-size:11px;color:var(--muted);font-weight:500}.kpis6{grid-template-columns:repeat(4,1fr)}.kpi .sub{font-size:11px;color:var(--muted);margin-top:2px}.download-box{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.download-box .small{margin-right:auto}.kpi.good .value{color:var(--good)}
 @media(max-width:1100px){.kpis6{grid-template-columns:repeat(2,1fr)}}@media(max-width:650px){.kpis6{grid-template-columns:1fr}}
+
+
+
+
+
+/* Sidebar contact area */
+.sidebar { display:flex; flex-direction:column; }
+.sidebar .nav { flex:0 0 auto; }
+.sidebar-footer {
+  margin-top:auto;
+  padding:18px 12px 4px;
+  color:#8d96a5;
+  font-size:11px;
+  line-height:1.5;
+}
+.sidebar-footer a {
+  display:block;
+  color:#cbd3e1;
+  text-decoration:none;
+  word-break:break-word;
+  margin:2px 0 6px;
+}
+.sidebar-footer a:hover { color:#fff; text-decoration:underline; }
+.sidebar-contact-label {
+  text-transform:uppercase;
+  letter-spacing:1px;
+  font-size:9px;
+  color:#8490a5;
+}
+.sidebar-copyright { font-size:10px; color:#697486; }
+@media(max-width:650px){
+  .sidebar-footer { padding-top:12px; }
+}

@@ -79,3 +79,175 @@ function renderData(){set("recordCount",opportunities().length.toLocaleString())
 function renderAll(){document.querySelectorAll("[data-source]").forEach(x=>x.textContent=state.demo?"DEMO DATA":state.source);const p=document.body.dataset.page;if(p==="dashboard")renderDashboard();if(p==="customers")renderCustomers();if(p==="pipeline")renderPipeline();if(p==="sales")renderSales();if(p==="reports")renderReports();if(p==="data")renderData();if(p==="kpis")renderKpis()}
 function init(){document.querySelectorAll("[data-upload]").forEach(i=>i.addEventListener("change",e=>handleFile(e.target.files[0])));if(!loadSession()){state.demo=true;state.source="Demo CRM data";state.datasets=window.DEMO_DATA||{};saveSession()}renderAll()}
 document.addEventListener("DOMContentLoaded",init);
+
+
+/* MSME_CRM_CONTACT_GATE_V2
+   Lead metadata is submitted to the configured Google Apps Script endpoint.
+   Customer Excel/CSV files are never submitted by this flow; they are read locally.
+*/
+const CRM_CONFIG = {
+  leadEndpoint: "https://script.google.com/macros/s/AKfycbzAfwHKdbHublMVUh2utH1Nf_pC0iyWYWp9PtjK17URXCtvdbzFg0YToJSzKQuQACMK/exec",
+  feedbackForm: "https://docs.google.com/forms/d/e/1FAIpQLSeSqTyiWnf_q6D5WyPcJ9bAAUKj14NmdHzKYY6EwbWHOE2MMA/viewform?usp=header",
+  diagnosticForm: "https://docs.google.com/forms/d/e/1FAIpQLSfXSyxVT5dIkMTJmHnwyLYMcXs_MuYERsYjjR4w2rBPEe7-1g/viewform?usp=publish-editor",
+  contactEmail: "yogesh.kapadi.iimk@gmail.com"
+};
+
+function openExternalCRMForm(url) {
+  window.open(url, "_blank", "noopener,noreferrer");
+}
+
+(function() {
+  const CONTACT_EMAIL = CRM_CONFIG.contactEmail;
+
+  function ensureContactGate() {
+    if (document.getElementById("contactGateModal")) return;
+    const style = document.createElement("style");
+    style.textContent = `
+      .crm-modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.62);display:flex;align-items:center;justify-content:center;z-index:9999;padding:20px}
+      .crm-modal{width:min(600px,100%);max-height:calc(100vh - 40px);overflow:auto;background:#111827;border:1px solid rgba(255,255,255,.14);border-radius:16px;padding:28px;box-shadow:0 20px 70px rgba(0,0,0,.45)}
+      .crm-modal h2{margin:0 0 8px}
+      .crm-modal p{color:#aab3c2;line-height:1.5}
+      .crm-field{margin:14px 0}
+      .crm-field label,.crm-question-label{display:block;font-size:13px;margin-bottom:6px;color:#d8dee8}
+      .crm-field input[type="text"],.crm-field input[type="email"]{width:100%;box-sizing:border-box;padding:11px 12px;border-radius:8px;border:1px solid #394455;background:#0b1220;color:#fff}
+      .crm-choice{display:block;margin:9px 0;color:#d8dee8;line-height:1.35}
+      .crm-actions{display:flex;gap:10px;justify-content:flex-end;margin-top:20px;flex-wrap:wrap}
+      .crm-btn{border:0;border-radius:8px;padding:10px 16px;cursor:pointer}
+      .crm-btn:disabled{opacity:.65;cursor:wait}
+      .crm-primary{background:#fff;color:#111}
+      .crm-secondary{background:#273142;color:#fff}
+      .crm-note{font-size:12px;color:#8f99a9}
+      .crm-status{font-size:12px;color:#aab3c2;margin-top:10px;display:none}
+    `;
+    document.head.appendChild(style);
+
+    const modal = document.createElement("div");
+    modal.id = "contactGateModal";
+    modal.className = "crm-modal-backdrop";
+    modal.style.display = "none";
+    modal.innerHTML = `
+      <div class="crm-modal" role="dialog" aria-modal="true" aria-labelledby="crmGateTitle">
+        <h2 id="crmGateTitle">Before you connect your data</h2>
+        <p>Tell us a little about yourself. Your Excel/CSV data remains on your computer and is processed locally in your browser.</p>
+
+        <div class="crm-field"><label for="crmLeadName">Name *</label><input id="crmLeadName" type="text" autocomplete="name"></div>
+        <div class="crm-field"><label for="crmLeadCompany">Company Name *</label><input id="crmLeadCompany" type="text" autocomplete="organization"></div>
+        <div class="crm-field"><label for="crmLeadEmail">Business Email <span class="crm-note">(optional)</span></label><input id="crmLeadEmail" type="email" autocomplete="email"></div>
+
+        <div class="crm-field">
+          <div class="crm-question-label">Would you like us to contact you? *</div>
+          <label class="crm-choice"><input type="radio" name="crmContactPref" value="Yes, I'd like to hear from you"> Yes, I'd like to hear from you</label>
+          <label class="crm-choice"><input type="radio" name="crmContactPref" value="No, I'll contact you if I need assistance"> No, I'll contact you if I need assistance</label>
+        </div>
+
+        <div class="crm-field">
+          <div class="crm-question-label">What would you like to do today? *</div>
+          <label class="crm-choice"><input type="radio" name="crmPurpose" value="Analyze my own business data"> Analyze my own business data</label>
+          <label class="crm-choice"><input type="radio" name="crmPurpose" value="Evaluate the product for my company"> Evaluate the product for my company</label>
+          <label class="crm-choice"><input type="radio" name="crmPurpose" value="Explore the product for a future decision"> Explore the product for a future decision</label>
+          <label class="crm-choice"><input type="radio" name="crmPurpose" value="Other"> Other</label>
+        </div>
+
+        <p class="crm-note">If you choose No, we will respect that preference. You can always contact us at <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a>.</p>
+        <div class="crm-status" id="crmGateStatus">Saving your details securely…</div>
+        <div class="crm-actions">
+          <button type="button" class="crm-btn crm-secondary" id="crmGateCancel">Cancel</button>
+          <button type="button" class="crm-btn crm-primary" id="crmGateContinue">Continue to Connect My Data</button>
+        </div>
+      </div>`;
+    document.body.appendChild(modal);
+
+    document.getElementById("crmGateCancel").onclick = () => modal.style.display = "none";
+
+    document.getElementById("crmGateContinue").onclick = () => {
+      const name = document.getElementById("crmLeadName").value.trim();
+      const company = document.getElementById("crmLeadCompany").value.trim();
+      const emailValue = document.getElementById("crmLeadEmail").value.trim();
+      const pref = document.querySelector('input[name="crmContactPref"]:checked')?.value;
+      const purpose = document.querySelector('input[name="crmPurpose"]:checked')?.value;
+      const button = document.getElementById("crmGateContinue");
+      const status = document.getElementById("crmGateStatus");
+
+      if (!name || !company || !pref || !purpose) {
+        alert("Please enter your name, company name, contact preference, and purpose.");
+        return;
+      }
+      if (emailValue && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailValue)) {
+        alert("Please enter a valid email address.");
+        return;
+      }
+      if (!CRM_CONFIG.leadEndpoint) {
+        alert("The lead connection endpoint is not configured.");
+        return;
+      }
+
+      button.disabled = true;
+      status.style.display = "block";
+
+      sessionStorage.setItem("crm_lead", JSON.stringify({
+        timestamp: new Date().toISOString(),
+        name, company, email: emailValue,
+        contact_preference: pref,
+        purpose
+      }));
+
+      // Use a native HTML form POST to avoid browser CORS restrictions.
+      // The hidden iframe keeps the user on this page while Apps Script receives the lead.
+      let frame = document.getElementById("crmLeadSubmitFrame");
+      if (!frame) {
+        frame = document.createElement("iframe");
+        frame.id = "crmLeadSubmitFrame";
+        frame.name = "crmLeadSubmitFrame";
+        frame.style.display = "none";
+        document.body.appendChild(frame);
+      }
+
+      const form = document.createElement("form");
+      form.method = "POST";
+      form.action = CRM_CONFIG.leadEndpoint;
+      form.target = "crmLeadSubmitFrame";
+      form.style.display = "none";
+
+      const fields = {
+        "Name": name,
+        "Company Name": company,
+        "Business Email": emailValue,
+        "Would you like us to contact you regarding MSME CRM Intelligence?": pref,
+        "What would you like to do today?": purpose
+      };
+      Object.entries(fields).forEach(([key, value]) => {
+        const input = document.createElement("input");
+        input.type = "hidden";
+        input.name = key;
+        input.value = value;
+        form.appendChild(input);
+      });
+      document.body.appendChild(form);
+      form.submit();
+      form.remove();
+
+      // Apps Script submission happens in the hidden frame. After a short handoff,
+      // continue with the local file picker. No CRM file is included in the POST.
+      setTimeout(() => {
+        modal.style.display = "none";
+        button.disabled = false;
+        status.style.display = "none";
+        const fileInput = document.querySelector('input[data-upload]');
+        if (fileInput) fileInput.click();
+        else alert("Your data connection control is ready, but the file selector could not be found on this page.");
+      }, 900);
+    };
+  }
+
+  window.openCRMContactGate = function() {
+    ensureContactGate();
+    const modal = document.getElementById("contactGateModal");
+    modal.style.display = "flex";
+    const first = document.getElementById("crmLeadName");
+    if (first) setTimeout(() => first.focus(), 0);
+  };
+
+  document.addEventListener("DOMContentLoaded", () => {
+    ensureContactGate();
+  });
+})();

@@ -101,3 +101,11 @@ The Excel demo workbook contains five editable sheets and is the recommended tes
 
 ### Pipeline Velocity
 The demo now calculates Pipeline Velocity as a directional sales-velocity KPI using the standard components of qualified pipeline count, average won deal size, win rate and average sales-cycle duration. Because the MVP does not yet contain historical stage-transition timestamps, this is an **expected/indicative velocity**, not a measured stage-to-stage velocity. A future release should add stage-history events for a more rigorous calculation.
+
+## Google Forms / lead connection
+
+The Connect My Data gate sends only lead metadata (Name, Company Name, optional Business Email, contact preference and purpose) to the configured Google Apps Script web app. The customer's Excel/CSV file is not included in that request and remains local to the browser.
+
+Before publishing this release, update the Apps Script deployment with the code in `GOOGLE_APPS_SCRIPT_CODE.gs` and deploy it as the existing web app. The deployed web app must accept public POST requests and execute as the Google account that owns the Form.
+
+Feedback and 2-Minute Diagnostic buttons open their respective Google Forms. Do not put customer Excel/CSV data into those Forms or their response Sheets.

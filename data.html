@@ -5,14 +5,33 @@
 <a class="" href="pipeline.html">Pipeline</a>
 <a class="" href="sales.html">Sales Performance</a>
 <a class="" href="reports.html">Reports</a>
-<a href="kpis.html">KPI Center</a><div class="nav-label">Data & Intelligence</div>
+<a class="" href="kpis.html">KPI Center</a>
+<div class="nav-label">Data & Intelligence</div>
 <a class="active" href="data.html">Connect Your Data</a>
 <a class="" href="ai.html">AI Analyst</a>
-</nav></aside><main class="main">
+<div class="nav-label">Feedback & Research</div>
+<a class="" href="feedback.html">Give Feedback</a>
+<a class="" href="survey.html">2-Minute Diagnostic</a>
+</nav>
+<div class="sidebar-footer">
+  <div class="sidebar-contact-label">Contact</div>
+  <a href="mailto:yogesh.kapadi.iimk@gmail.com">yogesh.kapadi.iimk@gmail.com</a>
+  <div class="sidebar-copyright">© 2026 MSME CRM Intelligence</div>
+</div></aside><main class="main">
 <div class="top"><div><h1>Connect Your Data</h1><p>Move from the demo to your own CRM intelligence</p></div></div>
 <div class="card"><h3>Step 1 — Download the demo workbook</h3><p>The demo is already fully populated. Download the Excel workbook, explore the five sheets, change values or add rows, save it, and reconnect it below.</p><div class="actions"><button class="btn primary" onclick="downloadDemoWorkbook()">↓ Download Demo Excel Workbook</button><button class="btn" onclick="downloadDemoCSV('opportunities')">Download Opportunities CSV</button><button class="btn" onclick="downloadDemoCSV('customers')">Download Customers CSV</button></div></div><br>
-<div class="privacy">🔐 <b>Privacy-first:</b> your selected Excel/CSV file is read in the browser. This MVP has no server upload endpoint.</div>
-<div class="card"><h3>Step 2 — Connect your modified file</h3><div class="drop"><h3>Select CSV or Excel</h3><p>For the full KPI experience, use the provided Excel workbook with its five sheets.</p><input data-upload type="file" accept=".csv,.xlsx,.xls"></div><br><p><b>Current opportunity records:</b> <span id="recordCount">—</span></p><p><b>Current source:</b> <span id="dataSource">—</span></p><p class="small"><b>Opportunity columns:</b> <span id="columns">—</span></p></div><br>
+<div class="privacy">🔐 <b>Privacy-first:</b> your selected Excel/CSV file is read in the browser. No server receives the selected file; only the small lead form details are sent to our Google Form.</div>
+<div class="card"><h3>Step 2 — Connect your modified file</h3>
+<div class="drop">
+  <h3>Ready to use your own data?</h3>
+  <p>For the full KPI experience, use the provided Excel workbook with its five sheets.</p>
+  <button class="btn primary" type="button" onclick="openCRMContactGate()">Connect My Data →</button>
+  <input id="crmDataUpload" data-upload type="file" accept=".csv,.xlsx,.xls" style="display:none">
+  <p class="small" style="margin-top:12px">Your Excel/CSV is processed locally in your browser. It is not uploaded to our servers.</p>
+</div>
+<br><p><b>Current opportunity records:</b> <span id="recordCount">—</span></p>
+<p><b>Current source:</b> <span id="dataSource">—</span></p>
+<p class="small"><b>Opportunity columns:</b> <span id="columns">—</span></p></div><br>
 <div class="card"><h3>Step 3 — See the same KPI framework with your data</h3><p>The Excel template contains:</p><table class="table"><thead><tr><th>Sheet</th><th>Purpose</th><th>Example KPIs</th></tr></thead><tbody>
 <tr><td>Customers</td><td>Customer master and experience</td><td>Retention, churn, CSAT</td></tr>
 <tr><td>Opportunities</td><td>Sales funnel</td><td>Pipeline, win rate, average deal size</td></tr>
@@ -21,4 +40,5 @@
 <tr><td>Financial</td><td>Recurring revenue/economics</td><td>MRR, MRR growth, interaction cost</td></tr>
 </tbody></table><br><div class="actions"><a class="btn primary" href="dashboard.html">View Dashboard</a><button class="btn" onclick="resetDemo()">Reset to Demo</button></div></div><br>
 <div class="notice">For the next release, we should add a visual column-mapping wizard so customers can use their own CRM field names without editing the template.</div>
-</main></div><script src="js/demo-data.js"></script><script src="js/app.js"></script></body></html>
+</main></div><script src="js/demo-data.js"></script><script src="js/app.js"></script>
+</body></html>
