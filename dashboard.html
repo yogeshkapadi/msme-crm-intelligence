@@ -1,0 +1,50 @@
+<!doctype html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CRM Intelligence</title><link rel="stylesheet" href="css/style.css"><script src="https://cdn.jsdelivr.net/npm/chart.js"></script><script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script></head><body data-page="dashboard"><div class="app"><aside class="sidebar"><div class="brand">CRM <span>Intelligence</span></div><nav class="nav">
+<div class="nav-label">Analytics</div>
+<a class="active" href="dashboard.html">Overview</a>
+<a class="" href="customers.html">Customers</a>
+<a class="" href="pipeline.html">Pipeline</a>
+<a class="" href="sales.html">Sales Performance</a>
+<a class="" href="reports.html">Reports</a>
+<a href="kpis.html">KPI Center</a><div class="nav-label">Data & Intelligence</div>
+<a class="" href="data.html">Connect Your Data</a>
+<a class="" href="ai.html">AI Analyst</a>
+</nav></aside><main class="main">
+<div class="top"><div><h1>Executive Dashboard</h1><p><span class="badge">DEMO</span> Explore a complete CRM intelligence view using sample data</p></div><div class="actions"><button class="btn" onclick="downloadDemoWorkbook()">↓ Download Demo Data</button><a class="btn primary" href="data.html">Connect My Data →</a></div></div>
+<div class="privacy">💡 <b>Explore first, connect later.</b> The demo includes Sales, Marketing, Customer Service and Financial/Operational data. Download the Excel workbook, change it, and reconnect it to see the dashboard update.</div>
+
+<div class="section-title">Sales KPIs <span>Funnel performance & sales efficiency</span></div>
+<section class="grid kpis6">
+<div class="card kpi"><div class="label">Won Revenue</div><div id="kRevenue" class="value">—</div><div class="sub">Closed-won value</div></div>
+<div class="card kpi"><div class="label">Open Pipeline</div><div id="kPipeline" class="value">—</div><div class="sub">Open opportunity value</div></div>
+<div class="card kpi"><div class="label">Win Rate</div><div id="kWin" class="value">—</div><div class="sub">Won ÷ closed deals</div></div>
+<div class="card kpi"><div class="label">Average Deal Size</div><div id="kAvgDeal" class="value">—</div><div class="sub">Average won deal</div></div><div class="card kpi"><div class="label">Pipeline Velocity</div><div id="kVelocity" class="value">—</div><div class="sub">Expected value generated per day</div></div>
+</section>
+
+<div class="section-title">Marketing KPIs <span>Lead generation & campaign effectiveness</span></div>
+<section class="grid kpis6">
+<div class="card kpi"><div class="label">Lead Conversion Rate</div><div id="kLeadConv" class="value">—</div><div class="sub">Leads → won customers</div></div>
+<div class="card kpi"><div class="label">Cost per Lead</div><div id="kCPL" class="value">—</div><div class="sub">Marketing spend ÷ leads</div></div>
+<div class="card kpi"><div class="label">Customer Acquisition Cost</div><div id="kCAC" class="value">—</div><div class="sub">Marketing spend ÷ won customers</div></div>
+<div class="card kpi"><div class="label">Email CTR</div><div id="kCTR" class="value">—</div><div class="sub">Clicks ÷ emails sent</div></div>
+</section>
+
+<div class="section-title">Customer Service KPIs <span>Service quality & customer experience</span></div>
+<section class="grid kpis6">
+<div class="card kpi"><div class="label">Customer Retention</div><div id="kRetention" class="value">—</div><div class="sub">Active customer share</div></div>
+<div class="card kpi"><div class="label">CSAT</div><div id="kCSAT" class="value">—</div><div class="sub">Average satisfaction score</div></div>
+<div class="card kpi"><div class="label">Avg Response Time</div><div id="kResponse" class="value">—</div><div class="sub">First response</div></div>
+<div class="card kpi"><div class="label">Self-Service Rate</div><div id="kSelf" class="value">—</div><div class="sub">Tickets resolved via self-service</div></div>
+</section>
+
+<div class="section-title">Financial & Operational KPIs <span>Recurring revenue & customer economics</span></div>
+<section class="grid kpis6">
+<div class="card kpi"><div class="label">MRR</div><div id="kMRR" class="value">—</div><div class="sub">Latest monthly recurring revenue</div></div>
+<div class="card kpi"><div class="label">MRR Growth</div><div id="kMRRGrowth" class="value">—</div><div class="sub">Month-on-month</div></div>
+<div class="card kpi"><div class="label">Churn Rate</div><div id="kChurn" class="value">—</div><div class="sub">Churned customer share</div></div>
+<div class="card kpi"><div class="label">Interaction Cost</div><div id="kInteractionCost" class="value">—</div><div class="sub">Average cost per interaction</div></div>
+</section>
+
+<br><section class="grid two"><div class="card"><h3>Deal Value by Stage</h3><div class="chart"><canvas id="stageChart"></canvas></div></div><div class="card"><h3>Won Revenue by Region</h3><div class="chart"><canvas id="regionChart"></canvas></div></div></section><br>
+<section class="grid two"><div class="card"><h3>Attributed Revenue by Campaign</h3><div class="chart"><canvas id="campaignChart"></canvas></div></div><div class="card"><h3>Management Attention</h3><div id="insights"></div></div></section><br>
+<div class="card download-box"><div><h3 style="margin-bottom:4px">Want to test the dashboard yourself?</h3><div class="small">Download the complete Excel demo workbook with 5 editable sheets: Customers, Opportunities, Marketing, Service and Financial.</div></div><button class="btn primary" onclick="downloadDemoWorkbook()">Download Demo Excel Workbook</button><a class="btn" href="data.html">How to connect your data →</a></div>
+</main></div><script src="js/demo-data.js"></script><script src="js/app.js"></script></body></html>

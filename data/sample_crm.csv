@@ -1,0 +1,301 @@
+Opportunity ID,Customer,Salesperson,Region,Industry,Stage,Deal Value,Probability,Expected Revenue,Created Date,Expected Close
+OPP-0001,Crescent Retail,Rohan,North,Retail,Lost,1822000,0.0,0,2025-11-28,2025-12-25
+OPP-0002,Crescent Retail,Meera,West,Manufacturing,Lead,2320000,0.1,232000,2026-08-20,2026-09-13
+OPP-0003,Horizon Tech,Sana,North,Education,Lead,1953000,0.1,195300,2025-09-04,2025-10-20
+OPP-0004,Riverstone Ltd,Diya,East,Healthcare,Proposal,4395000,0.5,2197500,2026-08-23,2026-09-18
+OPP-0005,Delta Systems,Rohan,South,Retail,Proposal,2601000,0.5,1300500,2025-05-28,2025-07-28
+OPP-0006,Trinity Services,Diya,West,Logistics,Proposal,353000,0.5,176500,2025-04-10,2025-05-10
+OPP-0007,Lotus Retail,Kabir,South,IT Services,Proposal,1465000,0.5,732500,2026-06-29,2026-11-07
+OPP-0008,Eagle Retail,Kabir,West,Retail,Lead,1404000,0.1,140400,2025-09-07,2026-01-26
+OPP-0009,Evergreen Health,Meera,West,Manufacturing,Lead,1925000,0.1,192500,2025-03-16,2025-06-26
+OPP-0010,Kaveri Engineering,Sana,East,Education,Won,2611000,1.0,2611000,2025-03-21,2025-06-24
+OPP-0011,Indus Education,Meera,North,Manufacturing,Negotiation,2094000,0.7,1465800,2026-05-24,2026-07-01
+OPP-0012,Jupiter Foods,Sana,West,Logistics,Negotiation,4469000,0.7,3128300,2025-11-14,2026-03-23
+OPP-0013,Trinity Services,Aarav,West,Manufacturing,Lead,2118000,0.1,211800,2025-12-22,2026-02-18
+OPP-0014,Metro Healthcare,Meera,West,Manufacturing,Won,647000,1.0,647000,2025-08-12,2025-10-29
+OPP-0015,Cobalt Systems,Meera,East,Logistics,Proposal,2506000,0.5,1253000,2025-06-20,2025-08-09
+OPP-0016,Horizon Tech,Diya,North,IT Services,Lost,3096000,0.0,0,2026-03-02,2026-06-22
+OPP-0017,Cobalt Systems,Rohan,South,Retail,Qualified,1108000,0.25,277000,2025-06-04,2025-10-21
+OPP-0018,Trinity Services,Rohan,East,IT Services,Lead,1929000,0.1,192900,2025-10-16,2026-02-02
+OPP-0019,Orion Industrial,Sana,West,Healthcare,Lost,2973000,0.0,0,2026-06-12,2026-07-10
+OPP-0020,BluePeak Ltd,Diya,North,IT Services,Proposal,2206000,0.5,1103000,2026-02-13,2026-06-10
+OPP-0021,Delta Systems,Aarav,South,Education,Lead,1580000,0.1,158000,2026-03-28,2026-04-25
+OPP-0022,Dawn Healthcare,Diya,West,IT Services,Lost,2791000,0.0,0,2025-04-14,2025-05-17
+OPP-0023,Delta Systems,Aarav,West,Healthcare,Lost,2740000,0.0,0,2025-09-16,2026-01-30
+OPP-0024,Zenith Foods,Kabir,East,Healthcare,Proposal,455000,0.5,227500,2026-05-07,2026-06-17
+OPP-0025,Lotus Retail,Diya,North,Education,Proposal,983000,0.5,491500,2025-06-15,2025-11-12
+OPP-0026,Quantum Tech,Kabir,South,Retail,Lost,3895000,0.0,0,2025-11-02,2026-01-22
+OPP-0027,Urban Retail,Diya,South,IT Services,Proposal,3522000,0.5,1761000,2025-08-17,2025-11-24
+OPP-0028,Pioneer Logistics,Kabir,North,Manufacturing,Won,1078000,1.0,1078000,2026-02-15,2026-07-12
+OPP-0029,Orion Industrial,Sana,East,Retail,Proposal,932000,0.5,466000,2025-10-14,2026-01-25
+OPP-0030,Kaveri Engineering,Diya,West,Education,Qualified,1079000,0.25,269750,2025-03-24,2025-05-28
+OPP-0031,Cobalt Systems,Sana,North,Healthcare,Proposal,2964000,0.5,1482000,2025-01-02,2025-02-07
+OPP-0032,Crescent Retail,Sana,West,Healthcare,Proposal,865000,0.5,432500,2025-07-24,2025-11-01
+OPP-0033,Falcon Logistics,Diya,North,IT Services,Won,451000,1.0,451000,2026-02-16,2026-04-12
+OPP-0034,Trinity Services,Rohan,West,Logistics,Won,3644000,1.0,3644000,2026-08-28,2026-10-19
+OPP-0035,Apex Industries,Sana,North,Education,Lead,2501000,0.1,250100,2025-12-25,2026-01-14
+OPP-0036,Apex Industries,Kabir,South,Retail,Proposal,3932000,0.5,1966000,2025-05-23,2025-07-31
+OPP-0037,Riverstone Ltd,Meera,South,Manufacturing,Qualified,2670000,0.25,667500,2026-05-29,2026-08-18
+OPP-0038,Nova Systems,Rohan,South,Education,Won,3006000,1.0,3006000,2025-12-29,2026-05-25
+OPP-0039,Aria Components,Diya,North,IT Services,Proposal,158000,0.5,79000,2025-06-05,2025-10-10
+OPP-0040,Riverstone Ltd,Aarav,East,Logistics,Lead,2815000,0.1,281500,2025-06-26,2025-08-10
+OPP-0041,Eagle Retail,Rohan,North,IT Services,Proposal,2210000,0.5,1105000,2026-06-15,2026-07-27
+OPP-0042,Orion Industrial,Rohan,North,Manufacturing,Qualified,3492000,0.25,873000,2025-07-15,2025-12-06
+OPP-0043,Gamma Manufacturing,Sana,East,Healthcare,Qualified,4382000,0.25,1095500,2026-03-30,2026-08-23
+OPP-0044,Westline Systems,Rohan,East,Education,Proposal,2190000,0.5,1095000,2026-06-05,2026-08-22
+OPP-0045,Metro Healthcare,Meera,East,Manufacturing,Won,682000,1.0,682000,2025-07-27,2025-09-11
+OPP-0046,BrightPath Consulting,Aarav,South,Logistics,Proposal,1016000,0.5,508000,2025-09-04,2025-12-05
+OPP-0047,Horizon Tech,Sana,North,Healthcare,Lead,3982000,0.1,398200,2026-01-10,2026-05-24
+OPP-0048,Falcon Logistics,Sana,West,Education,Lead,3030000,0.1,303000,2026-05-14,2026-07-25
+OPP-0049,Crescent Retail,Sana,East,Manufacturing,Qualified,941000,0.25,235250,2026-02-18,2026-05-25
+OPP-0050,Metro Healthcare,Kabir,East,Education,Proposal,2024000,0.5,1012000,2025-12-13,2026-01-01
+OPP-0051,Eagle Retail,Aarav,North,Retail,Lead,4140000,0.1,414000,2025-03-07,2025-05-19
+OPP-0052,Aria Components,Diya,West,Logistics,Lead,3522000,0.1,352200,2025-10-06,2025-12-29
+OPP-0053,Summit Manufacturing,Meera,East,Manufacturing,Proposal,2449000,0.5,1224500,2025-09-22,2026-02-15
+OPP-0054,Eagle Retail,Aarav,East,Manufacturing,Lead,3120000,0.1,312000,2025-10-13,2026-02-13
+OPP-0055,Crescent Retail,Kabir,North,Healthcare,Won,446000,1.0,446000,2025-04-01,2025-06-11
+OPP-0056,Trinity Services,Diya,North,Education,Qualified,2522000,0.25,630500,2025-01-12,2025-04-05
+OPP-0057,BluePeak Ltd,Diya,South,Retail,Lost,4364000,0.0,0,2025-09-02,2025-11-23
+OPP-0058,Quantum Tech,Sana,South,Retail,Proposal,986000,0.5,493000,2025-11-09,2026-03-18
+OPP-0059,Apex Industries,Aarav,South,Education,Won,4476000,1.0,4476000,2025-12-22,2026-01-15
+OPP-0060,Vertex Health,Meera,West,Education,Qualified,2053000,0.25,513250,2026-05-02,2026-09-04
+OPP-0061,Gamma Manufacturing,Sana,South,Healthcare,Negotiation,4422000,0.7,3095400,2025-11-12,2026-02-22
+OPP-0062,Crescent Retail,Sana,East,Healthcare,Lost,3779000,0.0,0,2025-12-22,2026-01-09
+OPP-0063,Dawn Healthcare,Rohan,East,Education,Lead,3019000,0.1,301900,2025-06-17,2025-10-07
+OPP-0064,Falcon Logistics,Kabir,West,Manufacturing,Negotiation,275000,0.7,192500,2025-09-06,2025-11-07
+OPP-0065,Horizon Tech,Aarav,East,IT Services,Qualified,1530000,0.25,382500,2025-09-27,2026-01-02
+OPP-0066,Pioneer Logistics,Kabir,South,IT Services,Lead,1559000,0.1,155900,2026-01-01,2026-02-06
+OPP-0067,Evergreen Health,Meera,North,Healthcare,Won,477000,1.0,477000,2026-06-01,2026-07-08
+OPP-0068,Summit Manufacturing,Rohan,South,Logistics,Qualified,2861000,0.25,715250,2025-01-24,2025-03-01
+OPP-0069,Evergreen Health,Kabir,South,Manufacturing,Qualified,1518000,0.25,379500,2026-09-03,2027-01-22
+OPP-0070,Evergreen Health,Rohan,North,Logistics,Negotiation,3322000,0.7,2325400,2026-06-10,2026-11-01
+OPP-0071,Crescent Retail,Aarav,North,IT Services,Won,3222000,1.0,3222000,2026-08-22,2026-11-03
+OPP-0072,Riverstone Ltd,Aarav,North,Logistics,Lost,1742000,0.0,0,2026-01-05,2026-05-15
+OPP-0073,Orion Industrial,Aarav,North,Logistics,Negotiation,2240000,0.7,1568000,2026-06-29,2026-07-14
+OPP-0074,BrightPath Consulting,Aarav,East,IT Services,Lead,3335000,0.1,333500,2026-06-23,2026-09-10
+OPP-0075,Pioneer Logistics,Meera,North,Healthcare,Qualified,2951000,0.25,737750,2025-07-30,2025-12-09
+OPP-0076,Crescent Retail,Rohan,South,Retail,Won,2805000,1.0,2805000,2025-10-22,2025-12-26
+OPP-0077,Apex Industries,Meera,North,Healthcare,Negotiation,3141000,0.7,2198700,2025-09-18,2025-11-06
+OPP-0078,Vertex Health,Meera,East,Logistics,Lost,515000,0.0,0,2025-10-03,2025-12-12
+OPP-0079,Eagle Retail,Rohan,South,Retail,Qualified,2137000,0.25,534250,2026-06-13,2026-07-28
+OPP-0080,Crescent Retail,Rohan,West,Retail,Lost,152000,0.0,0,2025-03-29,2025-08-08
+OPP-0081,Crescent Retail,Rohan,North,IT Services,Qualified,4259000,0.25,1064750,2026-02-01,2026-04-10
+OPP-0082,Indus Education,Aarav,East,IT Services,Qualified,1666000,0.25,416500,2026-06-21,2026-11-13
+OPP-0083,Falcon Logistics,Aarav,West,Logistics,Won,2226000,1.0,2226000,2026-05-25,2026-06-15
+OPP-0084,Lotus Retail,Meera,East,Manufacturing,Proposal,3293000,0.5,1646500,2026-04-07,2026-08-06
+OPP-0085,Delta Systems,Diya,North,Logistics,Lead,3397000,0.1,339700,2025-12-06,2026-04-01
+OPP-0086,Dawn Healthcare,Rohan,North,Retail,Qualified,363000,0.25,90750,2025-10-24,2026-02-15
+OPP-0087,Delta Systems,Aarav,East,Logistics,Won,3855000,1.0,3855000,2026-03-15,2026-06-09
+OPP-0088,Kaveri Engineering,Diya,East,Healthcare,Qualified,1251000,0.25,312750,2025-06-02,2025-10-25
+OPP-0089,Zenith Foods,Aarav,North,Logistics,Won,2867000,1.0,2867000,2025-01-30,2025-04-07
+OPP-0090,Pioneer Logistics,Aarav,South,IT Services,Proposal,3406000,0.5,1703000,2026-02-25,2026-05-24
+OPP-0091,Zenith Foods,Sana,East,Healthcare,Proposal,1322000,0.5,661000,2026-04-29,2026-07-18
+OPP-0092,Delta Systems,Diya,South,Manufacturing,Qualified,2541000,0.25,635250,2025-09-02,2025-12-26
+OPP-0093,Orion Industrial,Kabir,West,Healthcare,Proposal,3667000,0.5,1833500,2025-08-01,2025-10-11
+OPP-0094,Kaveri Engineering,Rohan,North,Retail,Proposal,1155000,0.5,577500,2025-05-23,2025-07-21
+OPP-0095,Eagle Retail,Aarav,West,Healthcare,Qualified,3656000,0.25,914000,2025-09-02,2025-11-07
+OPP-0096,Kaveri Engineering,Aarav,West,Retail,Won,1004000,1.0,1004000,2026-02-28,2026-05-23
+OPP-0097,Quantum Tech,Sana,South,Manufacturing,Lost,632000,0.0,0,2026-08-12,2027-01-02
+OPP-0098,Nova Systems,Kabir,North,IT Services,Won,1777000,1.0,1777000,2025-10-05,2026-02-11
+OPP-0099,Summit Manufacturing,Meera,North,Manufacturing,Proposal,3454000,0.5,1727000,2025-02-03,2025-06-19
+OPP-0100,Dawn Healthcare,Meera,West,IT Services,Lost,4182000,0.0,0,2026-02-05,2026-07-05
+OPP-0101,Cobalt Systems,Sana,West,Manufacturing,Qualified,748000,0.25,187000,2025-04-22,2025-06-03
+OPP-0102,Horizon Tech,Rohan,North,Logistics,Won,81000,1.0,81000,2026-07-19,2026-09-04
+OPP-0103,Urban Retail,Meera,North,Manufacturing,Lost,2847000,0.0,0,2025-11-08,2026-04-07
+OPP-0104,Metro Healthcare,Kabir,South,Education,Qualified,4250000,0.25,1062500,2025-03-14,2025-05-17
+OPP-0105,Indus Education,Kabir,South,Healthcare,Lead,1409000,0.1,140900,2025-01-02,2025-05-14
+OPP-0106,Westline Systems,Sana,East,Manufacturing,Qualified,1168000,0.25,292000,2026-06-23,2026-10-21
+OPP-0107,Crescent Retail,Kabir,South,Logistics,Qualified,3990000,0.25,997500,2025-01-23,2025-05-25
+OPP-0108,Westline Systems,Kabir,West,Retail,Lost,1079000,0.0,0,2026-03-11,2026-04-03
+OPP-0109,Crescent Retail,Diya,West,IT Services,Qualified,3602000,0.25,900500,2026-02-10,2026-07-04
+OPP-0110,Horizon Tech,Kabir,East,Manufacturing,Won,933000,1.0,933000,2025-11-16,2026-03-30
+OPP-0111,Nova Systems,Sana,North,Education,Negotiation,4042000,0.7,2829400,2026-05-23,2026-10-09
+OPP-0112,Trinity Services,Diya,West,Manufacturing,Lost,316000,0.0,0,2025-05-30,2025-06-20
+OPP-0113,Zenith Foods,Aarav,North,IT Services,Lead,2065000,0.1,206500,2025-03-03,2025-06-06
+OPP-0114,Zenith Foods,Meera,North,Retail,Qualified,2962000,0.25,740500,2025-12-04,2026-05-02
+OPP-0115,Falcon Logistics,Aarav,North,Manufacturing,Won,4434000,1.0,4434000,2026-01-23,2026-05-31
+OPP-0116,Riverstone Ltd,Diya,West,Retail,Lead,1934000,0.1,193400,2025-10-14,2025-11-29
+OPP-0117,Westline Systems,Meera,South,Retail,Won,1989000,1.0,1989000,2025-11-13,2025-12-10
+OPP-0118,Zenith Foods,Meera,North,Logistics,Lost,929000,0.0,0,2026-07-09,2026-10-25
+OPP-0119,BluePeak Ltd,Meera,North,Healthcare,Qualified,2842000,0.25,710500,2026-02-25,2026-06-23
+OPP-0120,Zenith Foods,Aarav,East,Retail,Won,349000,1.0,349000,2025-03-06,2025-05-09
+OPP-0121,Indus Education,Sana,East,Retail,Qualified,4295000,0.25,1073750,2025-10-06,2025-11-01
+OPP-0122,Apex Industries,Diya,North,Healthcare,Lead,3419000,0.1,341900,2025-11-01,2025-12-02
+OPP-0123,Fusion Logistics,Meera,West,IT Services,Lost,1785000,0.0,0,2026-04-22,2026-07-10
+OPP-0124,Cobalt Systems,Sana,South,Education,Lead,3626000,0.1,362600,2026-05-24,2026-08-24
+OPP-0125,BrightPath Consulting,Rohan,North,Education,Qualified,1489000,0.25,372250,2025-08-30,2025-12-15
+OPP-0126,Crescent Retail,Sana,North,Healthcare,Proposal,783000,0.5,391500,2025-07-22,2025-11-18
+OPP-0127,Eagle Retail,Aarav,North,Retail,Proposal,786000,0.5,393000,2026-07-20,2026-11-21
+OPP-0128,Falcon Logistics,Diya,South,Healthcare,Qualified,1938000,0.25,484500,2025-03-28,2025-08-04
+OPP-0129,Aria Components,Kabir,East,Retail,Negotiation,3058000,0.7,2140600,2026-04-17,2026-06-02
+OPP-0130,Gamma Manufacturing,Meera,South,IT Services,Qualified,1199000,0.25,299750,2026-08-04,2026-10-24
+OPP-0131,Kaveri Engineering,Aarav,West,Retail,Qualified,1320000,0.25,330000,2025-09-09,2025-11-11
+OPP-0132,Urban Retail,Meera,North,Manufacturing,Proposal,1099000,0.5,549500,2025-09-09,2025-10-19
+OPP-0133,Fusion Logistics,Kabir,North,Retail,Proposal,3700000,0.5,1850000,2025-01-05,2025-05-14
+OPP-0134,Fusion Logistics,Aarav,East,Education,Lead,914000,0.1,91400,2025-08-27,2025-10-30
+OPP-0135,Delta Systems,Sana,East,IT Services,Proposal,1225000,0.5,612500,2025-07-02,2025-07-18
+OPP-0136,Indus Education,Aarav,South,Manufacturing,Qualified,701000,0.25,175250,2025-02-08,2025-04-16
+OPP-0137,Crescent Retail,Diya,North,Healthcare,Proposal,1720000,0.5,860000,2025-12-02,2026-03-06
+OPP-0138,Vertex Health,Rohan,South,Logistics,Proposal,1881000,0.5,940500,2026-07-16,2026-11-09
+OPP-0139,Nova Systems,Kabir,East,Healthcare,Lead,799000,0.1,79900,2026-07-01,2026-09-23
+OPP-0140,Nova Systems,Meera,North,Retail,Qualified,2582000,0.25,645500,2025-02-22,2025-06-08
+OPP-0141,Nova Systems,Diya,West,Manufacturing,Proposal,1867000,0.5,933500,2025-07-21,2025-08-06
+OPP-0142,Aria Components,Diya,South,Manufacturing,Proposal,3982000,0.5,1991000,2025-04-03,2025-08-13
+OPP-0143,Crescent Retail,Rohan,East,Logistics,Proposal,2910000,0.5,1455000,2025-02-22,2025-06-18
+OPP-0144,Quantum Tech,Diya,North,Manufacturing,Lead,1615000,0.1,161500,2026-06-01,2026-07-27
+OPP-0145,Jupiter Foods,Diya,North,Healthcare,Proposal,3636000,0.5,1818000,2026-01-28,2026-04-03
+OPP-0146,Crescent Retail,Sana,South,Logistics,Lead,4173000,0.1,417300,2025-11-19,2026-03-13
+OPP-0147,Cobalt Systems,Meera,South,Education,Negotiation,2795000,0.7,1956499,2025-08-16,2025-10-20
+OPP-0148,Metro Healthcare,Kabir,North,IT Services,Lead,4228000,0.1,422800,2025-08-12,2025-10-06
+OPP-0149,BluePeak Ltd,Rohan,North,Logistics,Lost,3684000,0.0,0,2025-09-10,2025-11-13
+OPP-0150,Urban Retail,Meera,East,Education,Lead,2728000,0.1,272800,2025-11-28,2026-03-01
+OPP-0151,Quantum Tech,Meera,South,Manufacturing,Proposal,2990000,0.5,1495000,2025-09-13,2026-01-20
+OPP-0152,Orion Industrial,Rohan,West,IT Services,Negotiation,2241000,0.7,1568700,2025-01-04,2025-03-20
+OPP-0153,Nova Systems,Kabir,North,Healthcare,Proposal,372000,0.5,186000,2026-04-30,2026-08-14
+OPP-0154,Crescent Retail,Sana,East,Logistics,Proposal,255000,0.5,127500,2026-06-01,2026-07-19
+OPP-0155,Urban Retail,Diya,North,Manufacturing,Lead,3403000,0.1,340300,2026-06-08,2026-09-27
+OPP-0156,Jupiter Foods,Diya,South,Manufacturing,Qualified,4419000,0.25,1104750,2025-04-23,2025-09-10
+OPP-0157,Eagle Retail,Rohan,East,Healthcare,Negotiation,1191000,0.7,833700,2025-12-26,2026-04-02
+OPP-0158,Gamma Manufacturing,Rohan,East,Education,Qualified,4342000,0.25,1085500,2025-05-28,2025-10-12
+OPP-0159,Falcon Logistics,Meera,South,Logistics,Qualified,1722000,0.25,430500,2026-06-03,2026-08-07
+OPP-0160,BrightPath Consulting,Kabir,North,Education,Negotiation,4037000,0.7,2825900,2025-10-12,2025-12-09
+OPP-0161,Riverstone Ltd,Rohan,North,Retail,Negotiation,1667000,0.7,1166900,2025-02-19,2025-06-29
+OPP-0162,Indus Education,Meera,East,Education,Negotiation,1820000,0.7,1274000,2026-07-03,2026-10-21
+OPP-0163,Horizon Tech,Diya,North,Retail,Qualified,3459000,0.25,864750,2025-05-30,2025-10-05
+OPP-0164,Zenith Foods,Aarav,North,IT Services,Qualified,2904000,0.25,726000,2026-06-13,2026-09-16
+OPP-0165,Quantum Tech,Kabir,North,IT Services,Qualified,2843000,0.25,710750,2025-06-02,2025-10-01
+OPP-0166,BluePeak Ltd,Aarav,East,Retail,Qualified,2965000,0.25,741250,2026-05-16,2026-06-05
+OPP-0167,Summit Manufacturing,Kabir,South,IT Services,Proposal,2438000,0.5,1219000,2025-04-19,2025-08-17
+OPP-0168,Apex Industries,Diya,South,Healthcare,Negotiation,2176000,0.7,1523200,2026-01-11,2026-03-01
+OPP-0169,Metro Healthcare,Kabir,North,Manufacturing,Lead,715000,0.1,71500,2025-04-09,2025-07-02
+OPP-0170,Trinity Services,Rohan,West,IT Services,Won,2707000,1.0,2707000,2026-07-30,2026-12-05
+OPP-0171,Metro Healthcare,Diya,South,IT Services,Won,270000,1.0,270000,2025-06-19,2025-07-10
+OPP-0172,Evergreen Health,Meera,South,Education,Lost,539000,0.0,0,2025-03-01,2025-05-05
+OPP-0173,Quantum Tech,Kabir,North,Retail,Negotiation,1912000,0.7,1338400,2026-06-04,2026-08-02
+OPP-0174,Westline Systems,Rohan,North,Healthcare,Lost,3280000,0.0,0,2025-02-19,2025-07-06
+OPP-0175,Falcon Logistics,Diya,North,Retail,Won,2134000,1.0,2134000,2026-03-24,2026-08-01
+OPP-0176,Westline Systems,Aarav,East,Logistics,Negotiation,620000,0.7,434000,2025-08-26,2025-11-16
+OPP-0177,Indus Education,Kabir,South,Manufacturing,Negotiation,3109000,0.7,2176300,2026-07-22,2026-12-17
+OPP-0178,Cobalt Systems,Sana,South,IT Services,Lead,1227000,0.1,122700,2026-06-04,2026-08-18
+OPP-0179,Metro Healthcare,Sana,West,Healthcare,Qualified,1795000,0.25,448750,2025-12-01,2026-02-15
+OPP-0180,Zenith Foods,Diya,East,IT Services,Negotiation,3870000,0.7,2709000,2026-06-28,2026-11-01
+OPP-0181,Evergreen Health,Aarav,North,Manufacturing,Negotiation,419000,0.7,293300,2026-02-05,2026-04-04
+OPP-0182,Westline Systems,Aarav,North,Manufacturing,Negotiation,791000,0.7,553700,2025-04-20,2025-06-10
+OPP-0183,Zenith Foods,Aarav,North,Education,Negotiation,2880000,0.7,2015999,2025-05-22,2025-06-23
+OPP-0184,Eagle Retail,Sana,West,Manufacturing,Qualified,4299000,0.25,1074750,2026-01-08,2026-02-08
+OPP-0185,Dawn Healthcare,Sana,North,Logistics,Qualified,570000,0.25,142500,2025-09-10,2025-10-03
+OPP-0186,Jupiter Foods,Kabir,East,Healthcare,Proposal,662000,0.5,331000,2025-10-22,2025-12-28
+OPP-0187,BluePeak Ltd,Sana,East,Retail,Lead,1211000,0.1,121100,2025-09-25,2025-12-21
+OPP-0188,BrightPath Consulting,Meera,North,Healthcare,Proposal,1348000,0.5,674000,2026-05-31,2026-06-22
+OPP-0189,Riverstone Ltd,Rohan,South,Logistics,Won,1610000,1.0,1610000,2026-06-16,2026-07-13
+OPP-0190,Apex Industries,Rohan,South,Retail,Negotiation,1345000,0.7,941499,2025-04-04,2025-08-08
+OPP-0191,Westline Systems,Diya,West,Education,Lead,2247000,0.1,224700,2025-02-25,2025-07-15
+OPP-0192,Jupiter Foods,Diya,South,Healthcare,Lost,2354000,0.0,0,2025-12-22,2026-02-15
+OPP-0193,Pioneer Logistics,Sana,North,Logistics,Lead,2892000,0.1,289200,2025-06-19,2025-07-24
+OPP-0194,Eagle Retail,Sana,North,Healthcare,Qualified,1851000,0.25,462750,2025-12-01,2026-03-27
+OPP-0195,Eagle Retail,Rohan,South,Healthcare,Qualified,1416000,0.25,354000,2025-01-26,2025-05-30
+OPP-0196,Lotus Retail,Rohan,East,Education,Lost,636000,0.0,0,2025-08-28,2025-09-20
+OPP-0197,Falcon Logistics,Meera,West,Logistics,Won,2068000,1.0,2068000,2025-06-09,2025-09-14
+OPP-0198,Urban Retail,Sana,South,Education,Negotiation,633000,0.7,443100,2025-09-21,2026-02-01
+OPP-0199,Zenith Foods,Diya,South,Logistics,Qualified,3415000,0.25,853750,2025-07-16,2025-09-08
+OPP-0200,Kaveri Engineering,Diya,East,Logistics,Negotiation,1618000,0.7,1132600,2025-12-01,2026-02-14
+OPP-0201,Metro Healthcare,Diya,South,Retail,Lead,2986000,0.1,298600,2025-04-15,2025-06-19
+OPP-0202,Indus Education,Diya,West,Healthcare,Proposal,943000,0.5,471500,2025-11-01,2025-12-13
+OPP-0203,Westline Systems,Diya,East,Healthcare,Lead,3855000,0.1,385500,2025-02-04,2025-06-10
+OPP-0204,Apex Industries,Sana,South,Healthcare,Lead,2746000,0.1,274600,2025-01-23,2025-05-21
+OPP-0205,Vertex Health,Sana,South,Logistics,Negotiation,2939000,0.7,2057299,2026-08-11,2026-10-23
+OPP-0206,Indus Education,Sana,North,Healthcare,Negotiation,2084000,0.7,1458800,2025-07-05,2025-10-08
+OPP-0207,Indus Education,Meera,West,Healthcare,Won,3231000,1.0,3231000,2025-09-06,2025-10-31
+OPP-0208,Eagle Retail,Sana,East,Manufacturing,Negotiation,1886000,0.7,1320200,2025-01-21,2025-03-23
+OPP-0209,BluePeak Ltd,Kabir,South,IT Services,Won,4094000,1.0,4094000,2026-02-03,2026-03-17
+OPP-0210,Riverstone Ltd,Diya,West,Education,Proposal,522000,0.5,261000,2025-07-24,2025-12-02
+OPP-0211,Kaveri Engineering,Meera,West,IT Services,Negotiation,3743000,0.7,2620100,2025-01-17,2025-06-14
+OPP-0212,Zenith Foods,Rohan,East,Logistics,Proposal,3450000,0.5,1725000,2025-07-08,2025-08-23
+OPP-0213,Apex Industries,Aarav,West,Healthcare,Qualified,1765000,0.25,441250,2025-02-27,2025-03-29
+OPP-0214,Zenith Foods,Meera,South,Healthcare,Negotiation,558000,0.7,390600,2025-12-27,2026-03-29
+OPP-0215,BrightPath Consulting,Sana,South,Healthcare,Qualified,647000,0.25,161750,2026-04-19,2026-05-21
+OPP-0216,Lotus Retail,Sana,West,Healthcare,Won,3680000,1.0,3680000,2026-07-30,2026-09-20
+OPP-0217,Lotus Retail,Diya,East,Logistics,Won,2950000,1.0,2950000,2025-10-29,2026-03-13
+OPP-0218,Pioneer Logistics,Aarav,East,Retail,Negotiation,4424000,0.7,3096800,2026-01-21,2026-03-24
+OPP-0219,Nova Systems,Rohan,North,Logistics,Negotiation,1492000,0.7,1044399,2025-09-08,2026-01-25
+OPP-0220,BluePeak Ltd,Aarav,East,IT Services,Lead,1417000,0.1,141700,2026-01-07,2026-04-30
+OPP-0221,Vertex Health,Aarav,South,Manufacturing,Won,2877000,1.0,2877000,2026-06-28,2026-07-16
+OPP-0222,Dawn Healthcare,Diya,South,Healthcare,Qualified,524000,0.25,131000,2025-10-28,2025-12-18
+OPP-0223,BrightPath Consulting,Rohan,South,Education,Won,998000,1.0,998000,2025-12-21,2026-04-18
+OPP-0224,Gamma Manufacturing,Meera,South,Education,Negotiation,4031000,0.7,2821700,2025-04-03,2025-07-03
+OPP-0225,Riverstone Ltd,Aarav,East,Healthcare,Won,2016000,1.0,2016000,2025-03-22,2025-05-05
+OPP-0226,Pioneer Logistics,Meera,South,Logistics,Won,2169000,1.0,2169000,2025-08-28,2025-09-26
+OPP-0227,Falcon Logistics,Kabir,West,Logistics,Qualified,803000,0.25,200750,2026-05-19,2026-06-04
+OPP-0228,Lotus Retail,Meera,West,Logistics,Proposal,1388000,0.5,694000,2026-07-31,2026-12-12
+OPP-0229,Apex Industries,Rohan,North,Logistics,Lead,1670000,0.1,167000,2025-03-19,2025-04-10
+OPP-0230,Pioneer Logistics,Diya,North,IT Services,Won,491000,1.0,491000,2025-12-05,2026-04-22
+OPP-0231,Kaveri Engineering,Meera,South,Retail,Negotiation,1573000,0.7,1101100,2026-03-02,2026-06-18
+OPP-0232,Cobalt Systems,Kabir,East,Retail,Qualified,1188000,0.25,297000,2026-03-22,2026-04-19
+OPP-0233,Dawn Healthcare,Rohan,East,IT Services,Proposal,2304000,0.5,1152000,2026-05-21,2026-08-13
+OPP-0234,Westline Systems,Kabir,South,Education,Won,1539000,1.0,1539000,2026-05-20,2026-08-24
+OPP-0235,Riverstone Ltd,Rohan,North,Healthcare,Won,252000,1.0,252000,2025-03-31,2025-07-27
+OPP-0236,Trinity Services,Sana,North,Education,Lead,280000,0.1,28000,2025-11-04,2026-03-20
+OPP-0237,Gamma Manufacturing,Aarav,West,Logistics,Negotiation,2804000,0.7,1962799,2026-07-11,2026-08-16
+OPP-0238,Nova Systems,Aarav,North,Retail,Lead,877000,0.1,87700,2025-06-28,2025-07-22
+OPP-0239,Dawn Healthcare,Kabir,South,Healthcare,Won,2562000,1.0,2562000,2025-05-23,2025-08-12
+OPP-0240,Pioneer Logistics,Rohan,North,Manufacturing,Qualified,1981000,0.25,495250,2025-02-05,2025-03-05
+OPP-0241,Crescent Retail,Aarav,West,Education,Negotiation,4140000,0.7,2898000,2026-03-08,2026-07-15
+OPP-0242,Pioneer Logistics,Meera,North,Manufacturing,Lost,2993000,0.0,0,2026-08-30,2026-10-23
+OPP-0243,Nova Systems,Aarav,North,Logistics,Qualified,747000,0.25,186750,2026-04-29,2026-05-17
+OPP-0244,Dawn Healthcare,Aarav,South,Healthcare,Lost,3874000,0.0,0,2025-05-05,2025-07-14
+OPP-0245,Zenith Foods,Sana,South,Manufacturing,Qualified,2593000,0.25,648250,2025-01-19,2025-05-29
+OPP-0246,Zenith Foods,Aarav,East,Logistics,Won,3232000,1.0,3232000,2026-01-10,2026-03-03
+OPP-0247,Fusion Logistics,Aarav,North,Manufacturing,Won,2113000,1.0,2113000,2026-07-25,2026-10-13
+OPP-0248,Metro Healthcare,Kabir,East,Logistics,Lead,2954000,0.1,295400,2025-03-04,2025-04-08
+OPP-0249,Kaveri Engineering,Kabir,West,Healthcare,Lost,3769000,0.0,0,2025-06-19,2025-07-19
+OPP-0250,Urban Retail,Diya,West,Healthcare,Lead,3603000,0.1,360300,2025-06-20,2025-10-05
+OPP-0251,BrightPath Consulting,Rohan,East,Retail,Won,2078000,1.0,2078000,2026-01-30,2026-04-24
+OPP-0252,Dawn Healthcare,Rohan,North,IT Services,Lead,4385000,0.1,438500,2025-10-14,2026-01-22
+OPP-0253,Metro Healthcare,Meera,West,Education,Negotiation,4396000,0.7,3077200,2025-11-13,2026-01-30
+OPP-0254,Kaveri Engineering,Kabir,East,Healthcare,Won,1329000,1.0,1329000,2025-08-28,2025-09-12
+OPP-0255,Jupiter Foods,Diya,South,Retail,Negotiation,3686000,0.7,2580200,2025-06-11,2025-07-06
+OPP-0256,Riverstone Ltd,Aarav,West,Healthcare,Negotiation,4118000,0.7,2882600,2026-07-15,2026-10-26
+OPP-0257,Jupiter Foods,Rohan,North,Logistics,Won,3271000,1.0,3271000,2025-07-25,2025-10-07
+OPP-0258,Summit Manufacturing,Aarav,West,Healthcare,Proposal,989000,0.5,494500,2026-02-09,2026-04-30
+OPP-0259,Horizon Tech,Meera,East,Education,Lead,3644000,0.1,364400,2026-07-08,2026-08-08
+OPP-0260,Gamma Manufacturing,Diya,North,IT Services,Proposal,2683000,0.5,1341500,2025-11-25,2026-01-27
+OPP-0261,Aria Components,Rohan,South,IT Services,Qualified,2573000,0.25,643250,2025-10-24,2026-02-19
+OPP-0262,Lotus Retail,Sana,West,Manufacturing,Lost,2258000,0.0,0,2025-02-15,2025-03-29
+OPP-0263,Quantum Tech,Rohan,North,Manufacturing,Qualified,209000,0.25,52250,2025-06-09,2025-09-03
+OPP-0264,Summit Manufacturing,Rohan,South,Retail,Qualified,3928000,0.25,982000,2025-02-04,2025-06-23
+OPP-0265,Indus Education,Aarav,East,IT Services,Proposal,4263000,0.5,2131500,2025-10-14,2025-12-01
+OPP-0266,Riverstone Ltd,Kabir,West,Healthcare,Qualified,197000,0.25,49250,2025-07-05,2025-07-28
+OPP-0267,Westline Systems,Aarav,East,Retail,Won,2906000,1.0,2906000,2025-03-07,2025-04-21
+OPP-0268,Metro Healthcare,Diya,West,IT Services,Qualified,472000,0.25,118000,2026-08-02,2026-12-24
+OPP-0269,Falcon Logistics,Aarav,East,Retail,Lost,4463000,0.0,0,2026-01-15,2026-03-27
+OPP-0270,Indus Education,Rohan,West,Manufacturing,Won,4078000,1.0,4078000,2025-03-02,2025-03-29
+OPP-0271,Vertex Health,Sana,East,Education,Lead,3416000,0.1,341600,2025-04-14,2025-06-18
+OPP-0272,Kaveri Engineering,Kabir,East,Healthcare,Proposal,2962000,0.5,1481000,2026-08-29,2027-01-11
+OPP-0273,Horizon Tech,Diya,North,Healthcare,Qualified,1755000,0.25,438750,2025-05-08,2025-09-12
+OPP-0274,Crescent Retail,Rohan,East,Logistics,Won,770000,1.0,770000,2025-07-19,2025-09-28
+OPP-0275,Cobalt Systems,Aarav,North,Healthcare,Won,4314000,1.0,4314000,2025-05-24,2025-09-14
+OPP-0276,Urban Retail,Kabir,South,Retail,Qualified,1110000,0.25,277500,2025-12-14,2026-01-27
+OPP-0277,Riverstone Ltd,Diya,West,IT Services,Won,873000,1.0,873000,2025-08-15,2025-12-23
+OPP-0278,Indus Education,Rohan,East,Retail,Proposal,1167000,0.5,583500,2025-09-30,2025-10-21
+OPP-0279,Eagle Retail,Meera,North,IT Services,Qualified,558000,0.25,139500,2025-06-21,2025-10-30
+OPP-0280,Riverstone Ltd,Meera,East,Manufacturing,Lead,4036000,0.1,403600,2026-06-10,2026-08-18
+OPP-0281,Indus Education,Diya,South,Manufacturing,Won,4370000,1.0,4370000,2025-09-21,2026-01-24
+OPP-0282,Cobalt Systems,Sana,East,IT Services,Qualified,4041000,0.25,1010250,2026-02-04,2026-03-05
+OPP-0283,Evergreen Health,Meera,North,Education,Proposal,2322000,0.5,1161000,2025-01-17,2025-06-11
+OPP-0284,Gamma Manufacturing,Kabir,South,IT Services,Lead,2001000,0.1,200100,2025-10-21,2026-02-17
+OPP-0285,Gamma Manufacturing,Rohan,North,Manufacturing,Proposal,1095000,0.5,547500,2025-07-04,2025-09-01
+OPP-0286,Trinity Services,Sana,South,Education,Won,851000,1.0,851000,2026-05-23,2026-07-12
+OPP-0287,Nova Systems,Sana,North,Education,Qualified,366000,0.25,91500,2025-11-12,2026-04-09
+OPP-0288,Crescent Retail,Aarav,West,Healthcare,Qualified,3800000,0.25,950000,2025-12-22,2026-05-12
+OPP-0289,Summit Manufacturing,Kabir,North,IT Services,Won,1253000,1.0,1253000,2025-05-17,2025-07-18
+OPP-0290,Quantum Tech,Meera,North,Manufacturing,Negotiation,3872000,0.7,2710400,2026-01-16,2026-05-02
+OPP-0291,Aria Components,Sana,West,Education,Won,3688000,1.0,3688000,2026-01-01,2026-04-08
+OPP-0292,Orion Industrial,Rohan,North,Education,Qualified,552000,0.25,138000,2025-03-04,2025-07-23
+OPP-0293,Horizon Tech,Rohan,South,IT Services,Lead,1153000,0.1,115300,2026-07-05,2026-08-11
+OPP-0294,Apex Industries,Aarav,South,Retail,Qualified,2532000,0.25,633000,2025-04-16,2025-05-08
+OPP-0295,Quantum Tech,Diya,West,Manufacturing,Won,2893000,1.0,2893000,2025-01-19,2025-06-01
+OPP-0296,Indus Education,Aarav,West,Healthcare,Won,3248000,1.0,3248000,2025-12-26,2026-01-21
+OPP-0297,Delta Systems,Meera,South,Education,Proposal,1312000,0.5,656000,2026-08-23,2026-10-08
+OPP-0298,Zenith Foods,Meera,South,Manufacturing,Qualified,1080000,0.25,270000,2026-08-30,2027-01-10
+OPP-0299,BluePeak Ltd,Meera,North,Retail,Negotiation,2717000,0.7,1901899,2026-02-03,2026-07-02
+OPP-0300,Cobalt Systems,Rohan,East,Healthcare,Proposal,3786000,0.5,1893000,2025-12-13,2026-04-18

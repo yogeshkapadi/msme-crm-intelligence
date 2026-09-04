@@ -1,0 +1,31 @@
+Customer ID,Customer,Region,Industry,Segment,Acquisition Channel,Signup Date,Last Purchase Date,Status,CSAT,NPS,Annual Contract Value
+CUST-0001,Apex Industries,East,Healthcare,Enterprise,Partner Referral,2025-06-18,2026-08-31,Active,4.7,70,1689991
+CUST-0002,BluePeak Ltd,North,Manufacturing,Mid-Market,Email Nurture,2026-06-02,2026-08-31,Active,4.0,23,6452530
+CUST-0003,Crescent Retail,West,Logistics,Mid-Market,Email Nurture,2025-08-26,2026-05-21,Active,4.0,47,4681101
+CUST-0004,Delta Systems,East,Manufacturing,Enterprise,Organic,2026-05-25,2026-08-31,Active,4.7,20,313993
+CUST-0005,Evergreen Health,East,Healthcare,Mid-Market,LinkedIn,2026-04-10,2026-08-31,Active,3.5,9,4092159
+CUST-0006,Falcon Logistics,South,Logistics,SMB,Email Nurture,2025-08-29,2025-12-13,Active,5.0,14,1177418
+CUST-0007,Gamma Manufacturing,South,Education,Mid-Market,Trade Show,2026-05-03,2026-08-31,Active,3.9,62,4356376
+CUST-0008,Horizon Tech,West,Retail,Enterprise,Google Search,2026-01-31,2026-08-31,Active,3.5,68,173756
+CUST-0009,Indus Education,South,Education,SMB,Trade Show,2026-05-19,2026-08-28,Active,4.2,84,1095476
+CUST-0010,Jupiter Foods,East,Retail,SMB,Trade Show,2025-07-05,2026-01-25,Active,3.6,26,700661
+CUST-0011,Kaveri Engineering,North,Logistics,SMB,Organic,2025-06-28,2026-08-31,Active,4.9,57,1518066
+CUST-0012,Lotus Retail,West,Logistics,Enterprise,LinkedIn,2025-01-15,2026-02-03,Active,3.5,13,3834556
+CUST-0013,Metro Healthcare,East,Manufacturing,Mid-Market,Organic,2026-02-22,2026-08-31,Churned,3.7,58,2235362
+CUST-0014,Nova Systems,East,Logistics,Enterprise,LinkedIn,2025-06-24,2026-08-31,Churned,4.5,66,564414
+CUST-0015,Orion Industrial,West,Manufacturing,Enterprise,Trade Show,2025-09-16,2026-03-07,Active,4.6,52,5194537
+CUST-0016,Pioneer Logistics,West,Retail,Enterprise,Email Nurture,2026-03-13,2026-08-31,Active,4.3,22,6196236
+CUST-0017,Quantum Tech,North,Retail,SMB,Trade Show,2025-01-11,2026-03-08,Active,4.4,79,3682440
+CUST-0018,Riverstone Ltd,South,IT Services,Enterprise,Google Search,2025-09-21,2026-08-31,Active,3.9,28,362374
+CUST-0019,Summit Manufacturing,North,Logistics,Mid-Market,LinkedIn,2026-04-03,2026-08-31,Churned,3.7,46,3474248
+CUST-0020,Trinity Services,South,IT Services,Mid-Market,LinkedIn,2026-05-21,2026-08-31,Active,4.5,75,537397
+CUST-0021,Urban Retail,North,Healthcare,Mid-Market,Google Search,2026-06-01,2026-08-28,Active,3.9,77,1620499
+CUST-0022,Vertex Health,East,Logistics,Enterprise,LinkedIn,2025-08-27,2026-06-11,Active,3.9,44,6241329
+CUST-0023,Westline Systems,West,Education,Enterprise,Email Nurture,2025-10-30,2026-08-31,Active,4.3,70,5139243
+CUST-0024,Zenith Foods,South,Manufacturing,SMB,Trade Show,2025-11-28,2026-08-31,Active,5.0,50,697901
+CUST-0025,Aria Components,North,Logistics,Enterprise,Organic,2025-11-22,2026-08-31,Churned,4.7,62,4386610
+CUST-0026,BrightPath Consulting,West,Healthcare,Enterprise,LinkedIn,2025-01-21,2026-05-19,Active,3.2,60,502657
+CUST-0027,Cobalt Systems,West,Logistics,Mid-Market,Partner Referral,2025-09-10,2026-07-19,Active,4.6,56,3383028
+CUST-0028,Dawn Healthcare,North,Manufacturing,Mid-Market,LinkedIn,2025-12-02,2026-08-31,Active,4.1,82,1961154
+CUST-0029,Eagle Retail,West,Healthcare,Mid-Market,Email Nurture,2026-04-06,2026-08-31,Active,3.9,72,6117475
+CUST-0030,Fusion Logistics,East,Healthcare,SMB,LinkedIn,2025-01-07,2025-07-21,Active,3.4,27,817034

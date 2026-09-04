@@ -1,0 +1,401 @@
+Opportunity ID,Customer,Salesperson,Region,Industry,Stage,Deal Value,Probability,Expected Revenue,Lead Source,Created Date,Expected Close,Marketing Campaign
+OPP-0001,Falcon Logistics,Sana,West,IT Services,Qualified,4250000,0.25,1062500,Google Search,2026-06-19,2026-10-30,Google Search
+OPP-0002,Crescent Retail,Aarav,East,Education,Qualified,2649000,0.25,662250,Trade Show,2025-12-10,2026-02-11,Trade Show
+OPP-0003,Horizon Tech,Rohan,East,Logistics,Lost,4355000,0.0,0,LinkedIn,2025-09-18,2026-02-09,LinkedIn
+OPP-0004,Orion Industrial,Rohan,East,Logistics,Lead,1813000,0.1,181300,Partner Referral,2026-01-24,2026-05-21,Partner Referral
+OPP-0005,Gamma Manufacturing,Aarav,East,Logistics,Negotiation,2826000,0.7,1978199,LinkedIn,2025-06-28,2025-08-07,LinkedIn
+OPP-0006,Trinity Services,Meera,West,IT Services,Lead,2293000,0.1,229300,Partner Referral,2026-01-12,2026-02-06,Partner Referral
+OPP-0007,Orion Industrial,Kabir,North,Retail,Lost,729000,0.0,0,LinkedIn,2025-01-08,2025-04-12,LinkedIn
+OPP-0008,Cobalt Systems,Aarav,East,IT Services,Lead,3578000,0.1,357800,Email Nurture,2025-06-20,2025-10-23,Email Nurture
+OPP-0009,BrightPath Consulting,Rohan,West,Manufacturing,Proposal,2517000,0.5,1258500,Email Nurture,2026-03-04,2026-05-15,Email Nurture
+OPP-0010,BluePeak Ltd,Meera,West,Healthcare,Lead,2003000,0.1,200300,LinkedIn,2026-08-20,2026-10-22,LinkedIn
+OPP-0011,Urban Retail,Sana,North,Manufacturing,Lead,754000,0.1,75400,Trade Show,2025-12-13,2026-03-11,Trade Show
+OPP-0012,Indus Education,Kabir,North,IT Services,Qualified,509000,0.25,127250,Trade Show,2025-03-11,2025-05-13,Trade Show
+OPP-0013,BluePeak Ltd,Aarav,South,Retail,Negotiation,1293000,0.7,905100,LinkedIn,2025-02-08,2025-06-05,LinkedIn
+OPP-0014,Quantum Tech,Meera,North,Retail,Qualified,955000,0.25,238750,Organic,2026-07-06,2026-09-08,Organic
+OPP-0015,Riverstone Ltd,Sana,South,Manufacturing,Qualified,254000,0.25,63500,Email Nurture,2025-08-13,2025-11-26,Email Nurture
+OPP-0016,Fusion Logistics,Kabir,North,IT Services,Proposal,792000,0.5,396000,Google Search,2026-01-13,2026-05-21,Google Search
+OPP-0017,Gamma Manufacturing,Meera,East,Manufacturing,Negotiation,569000,0.7,398300,Partner Referral,2026-07-01,2026-10-03,Partner Referral
+OPP-0018,Urban Retail,Sana,South,IT Services,Lead,1248000,0.1,124800,Partner Referral,2025-12-27,2026-01-17,Partner Referral
+OPP-0019,Riverstone Ltd,Kabir,West,Logistics,Proposal,1901000,0.5,950500,Email Nurture,2026-07-04,2026-09-14,Email Nurture
+OPP-0020,Riverstone Ltd,Sana,East,Education,Lost,1136000,0.0,0,Trade Show,2026-01-07,2026-03-08,Trade Show
+OPP-0021,Zenith Foods,Diya,North,IT Services,Lost,4109000,0.0,0,Organic,2025-05-15,2025-06-05,Organic
+OPP-0022,Delta Systems,Diya,South,Logistics,Proposal,4036000,0.5,2018000,Trade Show,2026-06-30,2026-11-23,Trade Show
+OPP-0023,Urban Retail,Diya,East,IT Services,Negotiation,2131000,0.7,1491700,LinkedIn,2026-03-11,2026-07-30,LinkedIn
+OPP-0024,BluePeak Ltd,Rohan,West,IT Services,Won,1059000,1.0,1059000,Trade Show,2026-03-17,2026-08-01,Trade Show
+OPP-0025,Zenith Foods,Diya,South,IT Services,Won,1562000,1.0,1562000,Trade Show,2025-02-06,2025-06-13,Trade Show
+OPP-0026,Cobalt Systems,Meera,South,Healthcare,Lead,220000,0.1,22000,Email Nurture,2026-01-21,2026-04-21,Email Nurture
+OPP-0027,BluePeak Ltd,Aarav,East,IT Services,Won,2524000,1.0,2524000,Organic,2025-08-21,2026-01-06,Organic
+OPP-0028,Westline Systems,Sana,North,Retail,Qualified,1643000,0.25,410750,Email Nurture,2026-05-27,2026-10-03,Email Nurture
+OPP-0029,Fusion Logistics,Diya,East,Manufacturing,Qualified,1183000,0.25,295750,Google Search,2025-04-18,2025-08-28,Google Search
+OPP-0030,Vertex Health,Rohan,East,Logistics,Qualified,650000,0.25,162500,Google Search,2025-11-12,2026-02-02,Google Search
+OPP-0031,BluePeak Ltd,Sana,East,Logistics,Proposal,668000,0.5,334000,LinkedIn,2025-08-12,2025-12-31,LinkedIn
+OPP-0032,BluePeak Ltd,Kabir,West,Manufacturing,Qualified,930000,0.25,232500,Trade Show,2026-06-20,2026-08-10,Trade Show
+OPP-0033,Zenith Foods,Diya,West,Healthcare,Won,2738000,1.0,2738000,Google Search,2025-05-07,2025-09-29,Google Search
+OPP-0034,Apex Industries,Sana,East,IT Services,Proposal,2503000,0.5,1251500,Organic,2026-05-28,2026-09-30,Organic
+OPP-0035,Quantum Tech,Rohan,South,Healthcare,Proposal,2038000,0.5,1019000,Organic,2025-12-21,2026-05-01,Organic
+OPP-0036,Aria Components,Rohan,North,Retail,Lead,2921000,0.1,292100,LinkedIn,2025-08-27,2026-01-05,LinkedIn
+OPP-0037,Westline Systems,Kabir,East,IT Services,Lead,135000,0.1,13500,Trade Show,2026-05-17,2026-08-09,Trade Show
+OPP-0038,Falcon Logistics,Diya,South,Education,Proposal,968000,0.5,484000,Email Nurture,2025-02-19,2025-03-08,Email Nurture
+OPP-0039,Aria Components,Aarav,South,Logistics,Lead,2922000,0.1,292200,Google Search,2025-04-25,2025-08-21,Google Search
+OPP-0040,Trinity Services,Rohan,North,IT Services,Proposal,451000,0.5,225500,LinkedIn,2025-08-02,2025-10-18,LinkedIn
+OPP-0041,Vertex Health,Aarav,West,Retail,Proposal,3565000,0.5,1782500,Organic,2025-07-28,2025-12-23,Organic
+OPP-0042,Summit Manufacturing,Meera,North,Healthcare,Won,3115000,1.0,3115000,Google Search,2025-11-22,2026-03-23,Google Search
+OPP-0043,Aria Components,Meera,East,Education,Proposal,243000,0.5,121500,Trade Show,2026-08-17,2026-09-21,Trade Show
+OPP-0044,Indus Education,Meera,East,Manufacturing,Qualified,1717000,0.25,429250,Organic,2025-06-17,2025-11-04,Organic
+OPP-0045,Aria Components,Sana,South,Retail,Qualified,475000,0.25,118750,LinkedIn,2025-04-29,2025-08-05,LinkedIn
+OPP-0046,BluePeak Ltd,Kabir,West,Education,Proposal,1268000,0.5,634000,LinkedIn,2025-11-12,2026-03-20,LinkedIn
+OPP-0047,Gamma Manufacturing,Aarav,West,Logistics,Negotiation,2171000,0.7,1519700,Organic,2025-04-19,2025-08-05,Organic
+OPP-0048,Quantum Tech,Diya,South,Manufacturing,Negotiation,1999000,0.7,1399300,Partner Referral,2025-11-08,2025-11-27,Partner Referral
+OPP-0049,Vertex Health,Diya,West,IT Services,Qualified,3918000,0.25,979500,Google Search,2025-08-11,2025-11-20,Google Search
+OPP-0050,Trinity Services,Diya,East,Healthcare,Proposal,1736000,0.5,868000,Organic,2025-12-30,2026-03-26,Organic
+OPP-0051,Vertex Health,Sana,North,Manufacturing,Qualified,4020000,0.25,1005000,Trade Show,2025-05-27,2025-07-18,Trade Show
+OPP-0052,Zenith Foods,Meera,North,Logistics,Won,1421000,1.0,1421000,LinkedIn,2025-09-09,2025-12-30,LinkedIn
+OPP-0053,Dawn Healthcare,Aarav,South,Healthcare,Qualified,1257000,0.25,314250,Google Search,2026-08-15,2026-10-28,Google Search
+OPP-0054,Falcon Logistics,Sana,West,Healthcare,Proposal,3180000,0.5,1590000,LinkedIn,2025-07-14,2025-12-07,LinkedIn
+OPP-0055,Westline Systems,Aarav,North,IT Services,Won,2373000,1.0,2373000,LinkedIn,2025-10-29,2025-11-25,LinkedIn
+OPP-0056,Kaveri Engineering,Aarav,South,Education,Lead,2170000,0.1,217000,Organic,2026-04-11,2026-05-15,Organic
+OPP-0057,Aria Components,Meera,North,Retail,Qualified,2048000,0.25,512000,Partner Referral,2026-08-20,2026-11-17,Partner Referral
+OPP-0058,Urban Retail,Kabir,East,Retail,Lead,1886000,0.1,188600,Partner Referral,2025-12-24,2026-03-14,Partner Referral
+OPP-0059,Urban Retail,Diya,North,Retail,Proposal,2958000,0.5,1479000,LinkedIn,2025-05-19,2025-09-01,LinkedIn
+OPP-0060,Westline Systems,Diya,North,Manufacturing,Lead,1581000,0.1,158100,Trade Show,2025-06-15,2025-08-11,Trade Show
+OPP-0061,Dawn Healthcare,Kabir,South,Education,Lead,2611000,0.1,261100,LinkedIn,2025-01-30,2025-04-14,LinkedIn
+OPP-0062,Indus Education,Kabir,South,Logistics,Lead,4184000,0.1,418400,Partner Referral,2025-07-23,2025-10-24,Partner Referral
+OPP-0063,Fusion Logistics,Sana,North,IT Services,Proposal,3592000,0.5,1796000,Organic,2026-02-10,2026-05-11,Organic
+OPP-0064,Crescent Retail,Rohan,West,Healthcare,Qualified,1421000,0.25,355250,LinkedIn,2025-11-03,2026-03-08,LinkedIn
+OPP-0065,Fusion Logistics,Meera,North,Logistics,Qualified,2800000,0.25,700000,Partner Referral,2025-07-07,2025-08-03,Partner Referral
+OPP-0066,Fusion Logistics,Aarav,North,Logistics,Proposal,4098000,0.5,2049000,Email Nurture,2026-07-23,2026-09-18,Email Nurture
+OPP-0067,Eagle Retail,Aarav,West,Manufacturing,Lost,2381000,0.0,0,Organic,2025-02-01,2025-02-16,Organic
+OPP-0068,Pioneer Logistics,Sana,East,IT Services,Proposal,4428000,0.5,2214000,Partner Referral,2026-08-11,2026-12-05,Partner Referral
+OPP-0069,Crescent Retail,Diya,South,Healthcare,Qualified,3454000,0.25,863500,Trade Show,2026-08-03,2026-10-14,Trade Show
+OPP-0070,Zenith Foods,Aarav,East,Education,Negotiation,3478000,0.7,2434600,Email Nurture,2025-11-18,2026-03-13,Email Nurture
+OPP-0071,Orion Industrial,Kabir,West,Retail,Lead,424000,0.1,42400,LinkedIn,2026-06-07,2026-08-12,LinkedIn
+OPP-0072,Aria Components,Diya,East,Retail,Won,2987000,1.0,2987000,Trade Show,2026-06-12,2026-10-26,Trade Show
+OPP-0073,Vertex Health,Diya,South,Manufacturing,Proposal,3405000,0.5,1702500,LinkedIn,2026-05-10,2026-07-31,LinkedIn
+OPP-0074,Riverstone Ltd,Kabir,South,Education,Qualified,3395000,0.25,848750,Email Nurture,2025-07-09,2025-11-09,Email Nurture
+OPP-0075,Summit Manufacturing,Aarav,South,Education,Lead,2752000,0.1,275200,Trade Show,2025-09-21,2025-11-04,Trade Show
+OPP-0076,Horizon Tech,Sana,West,Logistics,Won,2334000,1.0,2334000,Organic,2025-06-24,2025-11-15,Organic
+OPP-0077,Trinity Services,Sana,South,Healthcare,Lost,3825000,0.0,0,Trade Show,2026-03-06,2026-06-30,Trade Show
+OPP-0078,Gamma Manufacturing,Sana,East,Logistics,Lead,1366000,0.1,136600,Partner Referral,2025-07-16,2025-11-04,Partner Referral
+OPP-0079,Vertex Health,Kabir,East,Retail,Proposal,2671000,0.5,1335500,Google Search,2026-02-11,2026-04-26,Google Search
+OPP-0080,Falcon Logistics,Diya,South,Manufacturing,Proposal,2348000,0.5,1174000,Organic,2025-12-16,2026-03-08,Organic
+OPP-0081,Falcon Logistics,Kabir,North,Manufacturing,Negotiation,4088000,0.7,2861600,Email Nurture,2025-12-09,2026-02-05,Email Nurture
+OPP-0082,Metro Healthcare,Meera,East,Healthcare,Won,2203000,1.0,2203000,LinkedIn,2025-02-22,2025-04-24,LinkedIn
+OPP-0083,Urban Retail,Meera,South,Healthcare,Lost,721000,0.0,0,Organic,2025-02-12,2025-06-04,Organic
+OPP-0084,Quantum Tech,Diya,North,Manufacturing,Qualified,3049000,0.25,762250,Organic,2026-01-28,2026-04-05,Organic
+OPP-0085,Metro Healthcare,Sana,West,Retail,Lead,4350000,0.1,435000,Email Nurture,2025-12-11,2026-03-22,Email Nurture
+OPP-0086,Summit Manufacturing,Kabir,South,Retail,Won,4125000,1.0,4125000,Email Nurture,2025-03-28,2025-04-25,Email Nurture
+OPP-0087,Metro Healthcare,Meera,West,Healthcare,Proposal,1487000,0.5,743500,Partner Referral,2026-06-13,2026-07-23,Partner Referral
+OPP-0088,Urban Retail,Aarav,East,IT Services,Won,3621000,1.0,3621000,LinkedIn,2025-10-17,2026-02-14,LinkedIn
+OPP-0089,Aria Components,Sana,West,Healthcare,Qualified,2616000,0.25,654000,LinkedIn,2026-04-29,2026-08-31,LinkedIn
+OPP-0090,Lotus Retail,Kabir,East,Logistics,Won,3959000,1.0,3959000,Trade Show,2025-12-17,2026-02-18,Trade Show
+OPP-0091,Vertex Health,Aarav,West,Logistics,Lead,2865000,0.1,286500,Google Search,2026-04-02,2026-06-26,Google Search
+OPP-0092,Metro Healthcare,Diya,East,Manufacturing,Qualified,3808000,0.25,952000,Trade Show,2026-04-26,2026-08-27,Trade Show
+OPP-0093,Lotus Retail,Sana,West,Education,Lead,3393000,0.1,339300,LinkedIn,2025-05-23,2025-06-26,LinkedIn
+OPP-0094,Eagle Retail,Rohan,South,Manufacturing,Lost,2347000,0.0,0,Google Search,2026-07-16,2026-12-03,Google Search
+OPP-0095,Nova Systems,Diya,South,Retail,Lost,3241000,0.0,0,LinkedIn,2026-02-13,2026-07-04,LinkedIn
+OPP-0096,Kaveri Engineering,Rohan,West,Education,Lead,2944000,0.1,294400,Google Search,2025-07-31,2025-10-05,Google Search
+OPP-0097,Cobalt Systems,Rohan,East,Manufacturing,Negotiation,4178000,0.7,2924600,Google Search,2025-07-22,2025-10-17,Google Search
+OPP-0098,BluePeak Ltd,Kabir,West,Logistics,Lost,3603000,0.0,0,Trade Show,2025-09-08,2026-01-09,Trade Show
+OPP-0099,Pioneer Logistics,Rohan,West,Retail,Lead,2461000,0.1,246100,Google Search,2025-10-06,2025-11-22,Google Search
+OPP-0100,Vertex Health,Aarav,East,Logistics,Won,4102000,1.0,4102000,Organic,2026-04-21,2026-07-14,Organic
+OPP-0101,Eagle Retail,Diya,North,Retail,Qualified,3258000,0.25,814500,Email Nurture,2025-11-22,2026-01-09,Email Nurture
+OPP-0102,BrightPath Consulting,Aarav,North,Retail,Won,1795000,1.0,1795000,LinkedIn,2026-06-08,2026-11-03,LinkedIn
+OPP-0103,Metro Healthcare,Meera,West,Retail,Won,3535000,1.0,3535000,Trade Show,2026-03-19,2026-08-15,Trade Show
+OPP-0104,Riverstone Ltd,Sana,East,IT Services,Proposal,2878000,0.5,1439000,LinkedIn,2025-03-14,2025-06-24,LinkedIn
+OPP-0105,Falcon Logistics,Aarav,North,Healthcare,Lead,2186000,0.1,218600,Email Nurture,2025-01-01,2025-04-27,Email Nurture
+OPP-0106,Cobalt Systems,Aarav,South,Logistics,Lost,393000,0.0,0,Trade Show,2025-09-23,2025-11-23,Trade Show
+OPP-0107,Lotus Retail,Meera,East,Manufacturing,Qualified,4154000,0.25,1038500,LinkedIn,2026-08-13,2026-10-18,LinkedIn
+OPP-0108,Indus Education,Kabir,East,Healthcare,Lead,1614000,0.1,161400,Organic,2025-05-28,2025-09-27,Organic
+OPP-0109,Dawn Healthcare,Rohan,North,Retail,Qualified,3701000,0.25,925250,Trade Show,2026-01-15,2026-03-17,Trade Show
+OPP-0110,Urban Retail,Rohan,East,Retail,Proposal,2889000,0.5,1444500,LinkedIn,2025-09-09,2026-01-06,LinkedIn
+OPP-0111,BluePeak Ltd,Meera,South,Healthcare,Negotiation,3363000,0.7,2354100,Email Nurture,2025-06-08,2025-07-05,Email Nurture
+OPP-0112,Nova Systems,Sana,South,IT Services,Proposal,2398000,0.5,1199000,Partner Referral,2026-03-10,2026-08-04,Partner Referral
+OPP-0113,Pioneer Logistics,Aarav,West,Retail,Won,2365000,1.0,2365000,Trade Show,2026-06-28,2026-07-23,Trade Show
+OPP-0114,Horizon Tech,Kabir,West,Logistics,Proposal,626000,0.5,313000,Trade Show,2025-09-29,2025-10-18,Trade Show
+OPP-0115,Falcon Logistics,Sana,West,Retail,Lead,1554000,0.1,155400,Partner Referral,2025-07-10,2025-10-21,Partner Referral
+OPP-0116,Cobalt Systems,Diya,West,Education,Qualified,2958000,0.25,739500,Email Nurture,2026-05-11,2026-07-12,Email Nurture
+OPP-0117,Aria Components,Rohan,East,Education,Qualified,413000,0.25,103250,Partner Referral,2025-03-23,2025-05-15,Partner Referral
+OPP-0118,Jupiter Foods,Rohan,South,Education,Proposal,1471000,0.5,735500,Partner Referral,2026-04-30,2026-07-04,Partner Referral
+OPP-0119,Urban Retail,Aarav,South,Logistics,Won,1729000,1.0,1729000,Email Nurture,2025-02-28,2025-06-05,Email Nurture
+OPP-0120,Zenith Foods,Sana,North,Manufacturing,Proposal,2052000,0.5,1026000,Organic,2025-01-01,2025-02-28,Organic
+OPP-0121,Trinity Services,Sana,West,IT Services,Qualified,3059000,0.25,764750,Google Search,2025-07-31,2025-12-03,Google Search
+OPP-0122,Pioneer Logistics,Meera,North,IT Services,Lead,149000,0.1,14900,Organic,2025-07-28,2025-09-01,Organic
+OPP-0123,Aria Components,Sana,North,Manufacturing,Negotiation,4062000,0.7,2843400,LinkedIn,2026-05-10,2026-07-14,LinkedIn
+OPP-0124,Jupiter Foods,Rohan,North,Retail,Won,3320000,1.0,3320000,LinkedIn,2026-08-03,2026-09-19,LinkedIn
+OPP-0125,Summit Manufacturing,Kabir,West,Healthcare,Proposal,3262000,0.5,1631000,Organic,2025-07-01,2025-08-02,Organic
+OPP-0126,Evergreen Health,Kabir,West,Logistics,Lost,256000,0.0,0,Google Search,2025-11-09,2026-01-19,Google Search
+OPP-0127,Westline Systems,Sana,North,Education,Won,1359000,1.0,1359000,Partner Referral,2026-04-16,2026-07-29,Partner Referral
+OPP-0128,Dawn Healthcare,Kabir,North,IT Services,Qualified,2200000,0.25,550000,Google Search,2025-02-07,2025-06-10,Google Search
+OPP-0129,Lotus Retail,Aarav,West,Healthcare,Negotiation,1988000,0.7,1391600,Trade Show,2025-12-14,2026-02-03,Trade Show
+OPP-0130,Falcon Logistics,Diya,West,Logistics,Lead,341000,0.1,34100,Organic,2025-04-16,2025-06-06,Organic
+OPP-0131,BluePeak Ltd,Kabir,North,Healthcare,Proposal,1223000,0.5,611500,LinkedIn,2026-04-02,2026-05-27,LinkedIn
+OPP-0132,Gamma Manufacturing,Kabir,South,Education,Qualified,1726000,0.25,431500,Google Search,2025-03-24,2025-06-17,Google Search
+OPP-0133,Crescent Retail,Kabir,South,Healthcare,Proposal,1510000,0.5,755000,Trade Show,2026-05-28,2026-10-13,Trade Show
+OPP-0134,Indus Education,Diya,West,Education,Proposal,1913000,0.5,956500,Email Nurture,2025-06-04,2025-08-28,Email Nurture
+OPP-0135,BrightPath Consulting,Meera,West,Retail,Proposal,2969000,0.5,1484500,Google Search,2026-01-29,2026-04-13,Google Search
+OPP-0136,Delta Systems,Kabir,South,IT Services,Lead,2576000,0.1,257600,Email Nurture,2026-04-11,2026-07-12,Email Nurture
+OPP-0137,Fusion Logistics,Meera,North,Education,Lead,91000,0.1,9100,Google Search,2025-04-12,2025-07-22,Google Search
+OPP-0138,Jupiter Foods,Rohan,West,Manufacturing,Proposal,2784000,0.5,1392000,LinkedIn,2025-12-05,2026-01-20,LinkedIn
+OPP-0139,Nova Systems,Aarav,South,Education,Won,2851000,1.0,2851000,LinkedIn,2025-12-31,2026-05-11,LinkedIn
+OPP-0140,BrightPath Consulting,Diya,East,IT Services,Won,3641000,1.0,3641000,Partner Referral,2026-06-19,2026-08-23,Partner Referral
+OPP-0141,BrightPath Consulting,Sana,South,Education,Won,693000,1.0,693000,Trade Show,2025-05-24,2025-08-23,Trade Show
+OPP-0142,Delta Systems,Diya,West,Education,Won,2241000,1.0,2241000,Email Nurture,2026-02-03,2026-02-25,Email Nurture
+OPP-0143,Horizon Tech,Rohan,West,IT Services,Proposal,1664000,0.5,832000,Partner Referral,2025-03-27,2025-07-11,Partner Referral
+OPP-0144,Apex Industries,Rohan,South,Manufacturing,Qualified,2642000,0.25,660500,Organic,2025-05-03,2025-08-24,Organic
+OPP-0145,Riverstone Ltd,Sana,South,Logistics,Qualified,1268000,0.25,317000,Email Nurture,2025-07-09,2025-10-16,Email Nurture
+OPP-0146,Metro Healthcare,Sana,North,Retail,Won,2464000,1.0,2464000,Organic,2025-09-08,2025-12-13,Organic
+OPP-0147,Lotus Retail,Aarav,East,Manufacturing,Negotiation,3118000,0.7,2182600,Partner Referral,2025-01-29,2025-05-30,Partner Referral
+OPP-0148,Westline Systems,Kabir,West,IT Services,Qualified,4116000,0.25,1029000,Partner Referral,2025-11-29,2026-04-09,Partner Referral
+OPP-0149,BluePeak Ltd,Meera,West,Logistics,Lead,198000,0.1,19800,Google Search,2025-03-23,2025-05-09,Google Search
+OPP-0150,Cobalt Systems,Meera,South,IT Services,Lost,1841000,0.0,0,Partner Referral,2025-11-09,2026-03-10,Partner Referral
+OPP-0151,Horizon Tech,Meera,East,IT Services,Negotiation,2433000,0.7,1703100,Email Nurture,2025-04-20,2025-05-28,Email Nurture
+OPP-0152,Horizon Tech,Sana,West,Healthcare,Won,222000,1.0,222000,Partner Referral,2025-08-15,2025-09-17,Partner Referral
+OPP-0153,Nova Systems,Diya,South,Education,Lost,1156000,0.0,0,Organic,2025-01-20,2025-06-15,Organic
+OPP-0154,Riverstone Ltd,Diya,North,Manufacturing,Proposal,2838000,0.5,1419000,Google Search,2025-03-13,2025-05-26,Google Search
+OPP-0155,Pioneer Logistics,Aarav,West,Manufacturing,Lost,2058000,0.0,0,Email Nurture,2026-05-19,2026-06-23,Email Nurture
+OPP-0156,Trinity Services,Sana,South,Manufacturing,Won,3526000,1.0,3526000,LinkedIn,2025-10-07,2025-11-20,LinkedIn
+OPP-0157,Horizon Tech,Diya,North,Manufacturing,Won,1415000,1.0,1415000,Partner Referral,2026-06-18,2026-11-14,Partner Referral
+OPP-0158,Riverstone Ltd,Diya,East,Logistics,Won,1323000,1.0,1323000,Partner Referral,2026-08-18,2027-01-01,Partner Referral
+OPP-0159,Eagle Retail,Diya,South,Education,Qualified,2169000,0.25,542250,Google Search,2025-12-13,2026-05-03,Google Search
+OPP-0160,Metro Healthcare,Kabir,North,Manufacturing,Proposal,3735000,0.5,1867500,LinkedIn,2025-12-10,2026-03-13,LinkedIn
+OPP-0161,Jupiter Foods,Meera,West,Retail,Lost,3488000,0.0,0,Organic,2026-07-27,2026-10-10,Organic
+OPP-0162,Zenith Foods,Meera,South,Manufacturing,Qualified,899000,0.25,224750,Google Search,2025-01-21,2025-05-13,Google Search
+OPP-0163,Orion Industrial,Aarav,North,Retail,Qualified,1969000,0.25,492250,LinkedIn,2026-04-28,2026-08-27,LinkedIn
+OPP-0164,Lotus Retail,Kabir,North,IT Services,Qualified,3929000,0.25,982250,LinkedIn,2026-06-28,2026-10-22,LinkedIn
+OPP-0165,Trinity Services,Kabir,North,Manufacturing,Won,313000,1.0,313000,Partner Referral,2025-02-19,2025-04-24,Partner Referral
+OPP-0166,Falcon Logistics,Meera,South,Education,Won,3166000,1.0,3166000,Google Search,2025-09-16,2025-12-31,Google Search
+OPP-0167,Zenith Foods,Diya,West,Logistics,Qualified,872000,0.25,218000,Google Search,2025-03-06,2025-06-24,Google Search
+OPP-0168,Riverstone Ltd,Aarav,East,Manufacturing,Won,2075000,1.0,2075000,LinkedIn,2025-03-03,2025-03-29,LinkedIn
+OPP-0169,Gamma Manufacturing,Meera,South,Retail,Proposal,1076000,0.5,538000,LinkedIn,2025-02-28,2025-07-14,LinkedIn
+OPP-0170,Dawn Healthcare,Aarav,North,Education,Won,1752000,1.0,1752000,Google Search,2026-07-04,2026-09-25,Google Search
+OPP-0171,Eagle Retail,Diya,West,Education,Lead,2010000,0.1,201000,Email Nurture,2025-01-13,2025-05-26,Email Nurture
+OPP-0172,Aria Components,Diya,East,Education,Lead,880000,0.1,88000,Partner Referral,2025-06-08,2025-11-04,Partner Referral
+OPP-0173,Vertex Health,Rohan,West,Logistics,Qualified,3736000,0.25,934000,LinkedIn,2026-04-22,2026-06-07,LinkedIn
+OPP-0174,Horizon Tech,Kabir,North,Logistics,Proposal,4415000,0.5,2207500,Google Search,2026-08-22,2026-09-19,Google Search
+OPP-0175,Crescent Retail,Aarav,South,IT Services,Lead,343000,0.1,34300,Partner Referral,2025-12-24,2026-03-18,Partner Referral
+OPP-0176,Kaveri Engineering,Aarav,North,IT Services,Lost,834000,0.0,0,Organic,2025-12-19,2026-02-18,Organic
+OPP-0177,Eagle Retail,Sana,North,Retail,Won,302000,1.0,302000,Google Search,2026-08-16,2026-10-09,Google Search
+OPP-0178,Dawn Healthcare,Rohan,East,Manufacturing,Negotiation,615000,0.7,430500,Partner Referral,2025-12-18,2026-04-20,Partner Referral
+OPP-0179,Cobalt Systems,Sana,North,IT Services,Qualified,212000,0.25,53000,Organic,2025-07-20,2025-09-28,Organic
+OPP-0180,Fusion Logistics,Diya,East,Logistics,Qualified,4457000,0.25,1114250,Partner Referral,2025-07-04,2025-09-05,Partner Referral
+OPP-0181,Evergreen Health,Rohan,West,Education,Won,2054000,1.0,2054000,Trade Show,2025-09-07,2025-12-28,Trade Show
+OPP-0182,Pioneer Logistics,Rohan,West,Education,Qualified,4295000,0.25,1073750,Trade Show,2025-05-19,2025-09-02,Trade Show
+OPP-0183,Kaveri Engineering,Diya,North,Healthcare,Qualified,1054000,0.25,263500,Google Search,2026-04-08,2026-06-10,Google Search
+OPP-0184,Orion Industrial,Sana,North,Education,Negotiation,1058000,0.7,740600,LinkedIn,2026-05-08,2026-07-13,LinkedIn
+OPP-0185,Falcon Logistics,Diya,South,Healthcare,Negotiation,387000,0.7,270900,Partner Referral,2026-08-08,2026-10-14,Partner Referral
+OPP-0186,Riverstone Ltd,Sana,North,Logistics,Qualified,1596000,0.25,399000,LinkedIn,2026-02-03,2026-02-27,LinkedIn
+OPP-0187,Trinity Services,Diya,East,Logistics,Negotiation,1891000,0.7,1323700,Email Nurture,2025-12-08,2026-03-03,Email Nurture
+OPP-0188,Cobalt Systems,Rohan,East,IT Services,Negotiation,563000,0.7,394100,Email Nurture,2025-06-02,2025-07-15,Email Nurture
+OPP-0189,Eagle Retail,Aarav,South,Education,Won,1885000,1.0,1885000,Organic,2026-03-30,2026-05-02,Organic
+OPP-0190,Indus Education,Aarav,East,IT Services,Won,775000,1.0,775000,Email Nurture,2025-09-14,2026-01-24,Email Nurture
+OPP-0191,Vertex Health,Rohan,East,Retail,Won,3897000,1.0,3897000,LinkedIn,2026-03-17,2026-04-04,LinkedIn
+OPP-0192,Crescent Retail,Sana,West,Education,Proposal,342000,0.5,171000,Google Search,2025-01-04,2025-03-02,Google Search
+OPP-0193,BluePeak Ltd,Sana,East,Logistics,Lead,784000,0.1,78400,Trade Show,2026-07-09,2026-11-03,Trade Show
+OPP-0194,Orion Industrial,Sana,West,Logistics,Proposal,665000,0.5,332500,Organic,2026-06-16,2026-07-22,Organic
+OPP-0195,Falcon Logistics,Aarav,East,IT Services,Won,2290000,1.0,2290000,Google Search,2026-02-13,2026-03-11,Google Search
+OPP-0196,Falcon Logistics,Sana,West,Logistics,Qualified,1687000,0.25,421750,Trade Show,2025-12-12,2026-03-10,Trade Show
+OPP-0197,Urban Retail,Rohan,West,Education,Lost,1455000,0.0,0,Email Nurture,2025-05-25,2025-07-01,Email Nurture
+OPP-0198,Trinity Services,Aarav,West,Retail,Lead,1481000,0.1,148100,Trade Show,2025-06-23,2025-08-25,Trade Show
+OPP-0199,Nova Systems,Meera,West,Retail,Negotiation,345000,0.7,241499,Trade Show,2025-11-16,2026-02-24,Trade Show
+OPP-0200,Cobalt Systems,Diya,South,IT Services,Qualified,3246000,0.25,811500,Google Search,2025-05-26,2025-10-10,Google Search
+OPP-0201,Horizon Tech,Sana,North,Healthcare,Qualified,360000,0.25,90000,Email Nurture,2025-11-09,2026-02-05,Email Nurture
+OPP-0202,Gamma Manufacturing,Aarav,North,Education,Lost,2408000,0.0,0,Email Nurture,2026-06-24,2026-09-03,Email Nurture
+OPP-0203,Dawn Healthcare,Diya,South,IT Services,Qualified,1428000,0.25,357000,Partner Referral,2026-01-18,2026-05-16,Partner Referral
+OPP-0204,Nova Systems,Diya,East,Education,Proposal,2476000,0.5,1238000,Email Nurture,2025-05-03,2025-09-04,Email Nurture
+OPP-0205,Falcon Logistics,Sana,West,Retail,Qualified,2306000,0.25,576500,Organic,2025-04-30,2025-07-17,Organic
+OPP-0206,Apex Industries,Kabir,South,Healthcare,Qualified,3002000,0.25,750500,Organic,2025-01-23,2025-02-22,Organic
+OPP-0207,Horizon Tech,Kabir,East,IT Services,Qualified,2898000,0.25,724500,Trade Show,2026-02-28,2026-05-22,Trade Show
+OPP-0208,Urban Retail,Sana,North,Healthcare,Proposal,1802000,0.5,901000,Partner Referral,2025-05-19,2025-06-24,Partner Referral
+OPP-0209,Apex Industries,Kabir,North,Logistics,Won,3860000,1.0,3860000,Organic,2025-07-24,2025-09-02,Organic
+OPP-0210,Westline Systems,Aarav,North,Manufacturing,Lead,1715000,0.1,171500,Trade Show,2025-11-02,2026-02-08,Trade Show
+OPP-0211,Gamma Manufacturing,Rohan,North,Education,Qualified,390000,0.25,97500,LinkedIn,2025-10-07,2026-01-04,LinkedIn
+OPP-0212,Metro Healthcare,Sana,East,Retail,Proposal,2716000,0.5,1358000,LinkedIn,2025-02-17,2025-05-04,LinkedIn
+OPP-0213,Evergreen Health,Kabir,East,Retail,Qualified,2189000,0.25,547250,Organic,2025-02-08,2025-04-21,Organic
+OPP-0214,Zenith Foods,Diya,North,Retail,Won,1690000,1.0,1690000,Organic,2025-05-04,2025-07-28,Organic
+OPP-0215,Kaveri Engineering,Kabir,West,Logistics,Proposal,4336000,0.5,2168000,Google Search,2026-03-23,2026-05-24,Google Search
+OPP-0216,Kaveri Engineering,Kabir,West,Education,Lost,477000,0.0,0,Email Nurture,2026-03-21,2026-07-19,Email Nurture
+OPP-0217,Delta Systems,Rohan,South,Manufacturing,Qualified,3486000,0.25,871500,Email Nurture,2026-03-16,2026-04-09,Email Nurture
+OPP-0218,Westline Systems,Diya,East,IT Services,Proposal,271000,0.5,135500,Organic,2026-02-28,2026-05-13,Organic
+OPP-0219,Eagle Retail,Rohan,North,Retail,Qualified,1168000,0.25,292000,Trade Show,2025-03-29,2025-07-16,Trade Show
+OPP-0220,Delta Systems,Rohan,North,Education,Proposal,778000,0.5,389000,Partner Referral,2026-07-30,2026-12-07,Partner Referral
+OPP-0221,Nova Systems,Diya,North,Healthcare,Qualified,3886000,0.25,971500,Organic,2025-05-29,2025-06-19,Organic
+OPP-0222,Urban Retail,Diya,East,Manufacturing,Proposal,3419000,0.5,1709500,Google Search,2025-01-22,2025-05-14,Google Search
+OPP-0223,Fusion Logistics,Meera,South,Retail,Qualified,1879000,0.25,469750,Organic,2025-03-26,2025-05-07,Organic
+OPP-0224,Eagle Retail,Diya,East,Manufacturing,Lead,192000,0.1,19200,Trade Show,2025-07-08,2025-11-23,Trade Show
+OPP-0225,Summit Manufacturing,Rohan,North,Manufacturing,Lead,602000,0.1,60200,Partner Referral,2025-08-21,2025-09-16,Partner Referral
+OPP-0226,Aria Components,Kabir,North,Education,Qualified,3216000,0.25,804000,Trade Show,2026-03-04,2026-05-18,Trade Show
+OPP-0227,Metro Healthcare,Rohan,West,Healthcare,Negotiation,1963000,0.7,1374100,Email Nurture,2026-07-20,2026-09-12,Email Nurture
+OPP-0228,Indus Education,Rohan,East,IT Services,Lead,4106000,0.1,410600,Google Search,2025-01-13,2025-03-07,Google Search
+OPP-0229,Crescent Retail,Rohan,South,IT Services,Won,3799000,1.0,3799000,LinkedIn,2026-05-23,2026-10-19,LinkedIn
+OPP-0230,Delta Systems,Rohan,South,Retail,Lead,2128000,0.1,212800,LinkedIn,2026-01-30,2026-02-22,LinkedIn
+OPP-0231,Dawn Healthcare,Sana,South,Logistics,Qualified,3023000,0.25,755750,Google Search,2026-06-07,2026-10-24,Google Search
+OPP-0232,Orion Industrial,Rohan,North,Education,Lost,3421000,0.0,0,Email Nurture,2025-02-13,2025-06-14,Email Nurture
+OPP-0233,Trinity Services,Rohan,East,Manufacturing,Lead,3861000,0.1,386100,Email Nurture,2026-01-20,2026-03-02,Email Nurture
+OPP-0234,Horizon Tech,Aarav,East,IT Services,Won,1099000,1.0,1099000,LinkedIn,2025-04-27,2025-08-09,LinkedIn
+OPP-0235,Aria Components,Aarav,East,Healthcare,Lead,3424000,0.1,342400,Trade Show,2026-04-13,2026-05-27,Trade Show
+OPP-0236,Cobalt Systems,Aarav,West,IT Services,Proposal,2867000,0.5,1433500,LinkedIn,2026-04-21,2026-07-05,LinkedIn
+OPP-0237,Indus Education,Sana,South,IT Services,Qualified,2259000,0.25,564750,Partner Referral,2025-11-11,2026-01-09,Partner Referral
+OPP-0238,Dawn Healthcare,Meera,North,Logistics,Qualified,4181000,0.25,1045250,Organic,2025-04-04,2025-07-31,Organic
+OPP-0239,Cobalt Systems,Aarav,North,Healthcare,Lead,1126000,0.1,112600,Organic,2025-12-31,2026-04-06,Organic
+OPP-0240,Riverstone Ltd,Sana,West,Manufacturing,Lost,2209000,0.0,0,Partner Referral,2026-06-17,2026-08-04,Partner Referral
+OPP-0241,Jupiter Foods,Kabir,East,Healthcare,Lost,1307000,0.0,0,Google Search,2025-03-14,2025-06-02,Google Search
+OPP-0242,Eagle Retail,Meera,East,IT Services,Proposal,739000,0.5,369500,Trade Show,2026-07-15,2026-08-07,Trade Show
+OPP-0243,Pioneer Logistics,Kabir,East,Retail,Qualified,3521000,0.25,880250,Organic,2025-04-04,2025-08-22,Organic
+OPP-0244,Aria Components,Meera,East,Education,Proposal,545000,0.5,272500,Organic,2025-04-19,2025-06-09,Organic
+OPP-0245,Trinity Services,Meera,North,IT Services,Won,4112000,1.0,4112000,LinkedIn,2025-12-12,2026-05-02,LinkedIn
+OPP-0246,Nova Systems,Kabir,West,Education,Negotiation,2692000,0.7,1884399,Organic,2025-08-14,2025-10-26,Organic
+OPP-0247,Quantum Tech,Aarav,North,Education,Qualified,1325000,0.25,331250,Google Search,2026-05-31,2026-10-20,Google Search
+OPP-0248,Kaveri Engineering,Meera,North,Retail,Lead,3667000,0.1,366700,Google Search,2026-07-07,2026-09-14,Google Search
+OPP-0249,Nova Systems,Aarav,North,Retail,Proposal,872000,0.5,436000,Google Search,2026-08-08,2026-11-12,Google Search
+OPP-0250,BrightPath Consulting,Aarav,East,Logistics,Qualified,3619000,0.25,904750,Organic,2026-06-29,2026-08-31,Organic
+OPP-0251,Evergreen Health,Sana,South,Education,Won,4010000,1.0,4010000,LinkedIn,2026-04-08,2026-07-03,LinkedIn
+OPP-0252,Indus Education,Aarav,South,Manufacturing,Lead,4315000,0.1,431500,Organic,2026-01-15,2026-04-21,Organic
+OPP-0253,Aria Components,Diya,South,Logistics,Lead,2848000,0.1,284800,LinkedIn,2025-05-08,2025-07-20,LinkedIn
+OPP-0254,Evergreen Health,Meera,South,IT Services,Won,3020000,1.0,3020000,Google Search,2025-03-17,2025-07-30,Google Search
+OPP-0255,Westline Systems,Rohan,East,Retail,Lost,431000,0.0,0,Partner Referral,2025-11-06,2026-02-24,Partner Referral
+OPP-0256,Metro Healthcare,Aarav,North,IT Services,Negotiation,269000,0.7,188300,LinkedIn,2026-05-28,2026-09-07,LinkedIn
+OPP-0257,Horizon Tech,Rohan,North,Education,Won,2152000,1.0,2152000,Partner Referral,2025-11-08,2025-12-06,Partner Referral
+OPP-0258,Zenith Foods,Aarav,West,Manufacturing,Proposal,887000,0.5,443500,LinkedIn,2026-04-08,2026-07-07,LinkedIn
+OPP-0259,Crescent Retail,Meera,South,Education,Proposal,3954000,0.5,1977000,Trade Show,2026-06-19,2026-08-03,Trade Show
+OPP-0260,Fusion Logistics,Rohan,South,IT Services,Won,201000,1.0,201000,Partner Referral,2026-06-04,2026-10-05,Partner Referral
+OPP-0261,Apex Industries,Kabir,East,Manufacturing,Negotiation,2444000,0.7,1710800,Partner Referral,2026-04-13,2026-07-24,Partner Referral
+OPP-0262,Lotus Retail,Diya,East,Manufacturing,Won,1633000,1.0,1633000,LinkedIn,2026-07-09,2026-12-06,LinkedIn
+OPP-0263,Jupiter Foods,Diya,West,Healthcare,Lead,866000,0.1,86600,LinkedIn,2025-03-29,2025-07-25,LinkedIn
+OPP-0264,Jupiter Foods,Meera,North,Retail,Won,1764000,1.0,1764000,Organic,2025-07-03,2025-11-26,Organic
+OPP-0265,Aria Components,Aarav,West,Logistics,Lost,2717000,0.0,0,Google Search,2026-06-05,2026-07-24,Google Search
+OPP-0266,Westline Systems,Kabir,South,Education,Negotiation,4288000,0.7,3001600,Partner Referral,2026-03-25,2026-04-25,Partner Referral
+OPP-0267,Evergreen Health,Sana,North,Manufacturing,Proposal,2757000,0.5,1378500,Organic,2026-06-23,2026-07-22,Organic
+OPP-0268,Trinity Services,Rohan,North,Manufacturing,Proposal,294000,0.5,147000,Trade Show,2025-08-07,2025-08-23,Trade Show
+OPP-0269,Dawn Healthcare,Aarav,West,Manufacturing,Won,3056000,1.0,3056000,Partner Referral,2025-03-21,2025-08-01,Partner Referral
+OPP-0270,Horizon Tech,Aarav,North,Logistics,Lead,1507000,0.1,150700,LinkedIn,2025-06-30,2025-09-10,LinkedIn
+OPP-0271,Pioneer Logistics,Sana,East,Logistics,Won,4186000,1.0,4186000,LinkedIn,2026-07-29,2026-11-11,LinkedIn
+OPP-0272,Apex Industries,Kabir,West,Education,Proposal,161000,0.5,80500,Email Nurture,2026-06-23,2026-09-26,Email Nurture
+OPP-0273,Summit Manufacturing,Rohan,East,Logistics,Won,2593000,1.0,2593000,Organic,2026-04-24,2026-06-20,Organic
+OPP-0274,Pioneer Logistics,Kabir,East,IT Services,Lost,1303000,0.0,0,Trade Show,2026-04-15,2026-06-20,Trade Show
+OPP-0275,Aria Components,Diya,West,IT Services,Qualified,3016000,0.25,754000,Organic,2025-01-19,2025-02-08,Organic
+OPP-0276,Aria Components,Aarav,North,Healthcare,Negotiation,3759000,0.7,2631300,Organic,2026-02-22,2026-07-06,Organic
+OPP-0277,Eagle Retail,Rohan,East,Healthcare,Lead,2883000,0.1,288300,Google Search,2026-03-24,2026-05-29,Google Search
+OPP-0278,Cobalt Systems,Rohan,West,Education,Proposal,2588000,0.5,1294000,Google Search,2025-03-11,2025-04-17,Google Search
+OPP-0279,BrightPath Consulting,Meera,West,IT Services,Proposal,4292000,0.5,2146000,Partner Referral,2026-03-24,2026-07-22,Partner Referral
+OPP-0280,Dawn Healthcare,Meera,North,Logistics,Proposal,3882000,0.5,1941000,LinkedIn,2026-06-09,2026-10-17,LinkedIn
+OPP-0281,Aria Components,Meera,East,Manufacturing,Won,1211000,1.0,1211000,Trade Show,2026-02-01,2026-04-30,Trade Show
+OPP-0282,Dawn Healthcare,Aarav,West,Education,Proposal,2592000,0.5,1296000,Trade Show,2025-02-11,2025-04-11,Trade Show
+OPP-0283,BrightPath Consulting,Rohan,West,IT Services,Won,1513000,1.0,1513000,LinkedIn,2025-10-29,2025-11-27,LinkedIn
+OPP-0284,BrightPath Consulting,Sana,North,IT Services,Negotiation,815000,0.7,570500,Email Nurture,2025-05-24,2025-09-27,Email Nurture
+OPP-0285,Delta Systems,Diya,North,Manufacturing,Negotiation,2905000,0.7,2033499,Organic,2026-05-23,2026-07-27,Organic
+OPP-0286,Jupiter Foods,Kabir,South,Retail,Proposal,3543000,0.5,1771500,Google Search,2026-01-02,2026-03-02,Google Search
+OPP-0287,Metro Healthcare,Aarav,West,Retail,Lead,4342000,0.1,434200,Google Search,2025-05-03,2025-05-21,Google Search
+OPP-0288,Zenith Foods,Meera,North,Manufacturing,Lead,2101000,0.1,210100,Trade Show,2025-08-04,2025-10-10,Trade Show
+OPP-0289,Metro Healthcare,Kabir,West,Education,Negotiation,3990000,0.7,2793000,LinkedIn,2026-07-21,2026-10-07,LinkedIn
+OPP-0290,Kaveri Engineering,Meera,East,Retail,Negotiation,1552000,0.7,1086400,LinkedIn,2026-04-19,2026-08-23,LinkedIn
+OPP-0291,Riverstone Ltd,Kabir,South,Logistics,Lead,462000,0.1,46200,Trade Show,2025-09-15,2025-11-28,Trade Show
+OPP-0292,Vertex Health,Meera,East,IT Services,Lead,795000,0.1,79500,Organic,2026-01-08,2026-06-02,Organic
+OPP-0293,Metro Healthcare,Rohan,North,Education,Proposal,1826000,0.5,913000,Organic,2025-01-11,2025-05-11,Organic
+OPP-0294,BluePeak Ltd,Kabir,East,Retail,Qualified,954000,0.25,238500,Google Search,2026-08-14,2026-11-21,Google Search
+OPP-0295,Crescent Retail,Aarav,North,Manufacturing,Won,1761000,1.0,1761000,Email Nurture,2026-02-18,2026-06-06,Email Nurture
+OPP-0296,Urban Retail,Kabir,East,Retail,Negotiation,3380000,0.7,2366000,Google Search,2026-07-08,2026-08-07,Google Search
+OPP-0297,Nova Systems,Sana,East,IT Services,Won,1471000,1.0,1471000,LinkedIn,2026-06-01,2026-08-04,LinkedIn
+OPP-0298,Crescent Retail,Diya,East,Healthcare,Qualified,1833000,0.25,458250,Trade Show,2025-01-23,2025-06-05,Trade Show
+OPP-0299,Apex Industries,Meera,West,IT Services,Proposal,2756000,0.5,1378000,Email Nurture,2026-06-28,2026-07-25,Email Nurture
+OPP-0300,Horizon Tech,Diya,South,Manufacturing,Won,2015000,1.0,2015000,Partner Referral,2026-04-22,2026-06-28,Partner Referral
+OPP-0301,Gamma Manufacturing,Kabir,North,IT Services,Lead,4228000,0.1,422800,Partner Referral,2025-07-14,2025-09-15,Partner Referral
+OPP-0302,Orion Industrial,Sana,North,Manufacturing,Won,969000,1.0,969000,Google Search,2026-04-24,2026-09-17,Google Search
+OPP-0303,Orion Industrial,Kabir,South,IT Services,Won,3997000,1.0,3997000,Organic,2026-07-03,2026-10-07,Organic
+OPP-0304,Nova Systems,Meera,West,Retail,Proposal,4349000,0.5,2174500,Email Nurture,2026-08-19,2026-12-13,Email Nurture
+OPP-0305,Lotus Retail,Meera,East,IT Services,Qualified,1279000,0.25,319750,Partner Referral,2026-05-07,2026-07-19,Partner Referral
+OPP-0306,Jupiter Foods,Kabir,South,Logistics,Won,4070000,1.0,4070000,Google Search,2025-11-23,2025-12-12,Google Search
+OPP-0307,Dawn Healthcare,Kabir,South,Education,Negotiation,1065000,0.7,745500,Partner Referral,2026-05-27,2026-09-21,Partner Referral
+OPP-0308,Horizon Tech,Sana,North,Education,Proposal,3879000,0.5,1939500,Trade Show,2026-07-26,2026-11-04,Trade Show
+OPP-0309,Fusion Logistics,Sana,North,Healthcare,Lead,3478000,0.1,347800,Trade Show,2026-04-20,2026-09-14,Trade Show
+OPP-0310,Cobalt Systems,Diya,West,Manufacturing,Negotiation,168000,0.7,117599,LinkedIn,2026-03-14,2026-04-26,LinkedIn
+OPP-0311,Apex Industries,Sana,East,Education,Lead,4392000,0.1,439200,LinkedIn,2026-01-26,2026-03-28,LinkedIn
+OPP-0312,Jupiter Foods,Diya,West,Retail,Proposal,945000,0.5,472500,Google Search,2025-04-06,2025-05-24,Google Search
+OPP-0313,Delta Systems,Rohan,South,Healthcare,Won,2215000,1.0,2215000,Trade Show,2026-06-07,2026-08-11,Trade Show
+OPP-0314,Urban Retail,Sana,West,Manufacturing,Proposal,1096000,0.5,548000,Organic,2025-10-28,2026-03-27,Organic
+OPP-0315,Evergreen Health,Sana,North,Healthcare,Negotiation,4296000,0.7,3007200,LinkedIn,2026-08-06,2026-12-12,LinkedIn
+OPP-0316,Evergreen Health,Aarav,North,Retail,Proposal,4459000,0.5,2229500,LinkedIn,2025-09-07,2025-11-22,LinkedIn
+OPP-0317,Summit Manufacturing,Meera,West,Healthcare,Negotiation,1198000,0.7,838600,Google Search,2026-01-03,2026-03-17,Google Search
+OPP-0318,Crescent Retail,Meera,North,IT Services,Negotiation,1146000,0.7,802200,Google Search,2025-06-11,2025-08-17,Google Search
+OPP-0319,Urban Retail,Kabir,South,Healthcare,Qualified,89000,0.25,22250,LinkedIn,2026-04-14,2026-05-06,LinkedIn
+OPP-0320,Vertex Health,Kabir,South,Healthcare,Won,317000,1.0,317000,Google Search,2026-02-05,2026-04-07,Google Search
+OPP-0321,Indus Education,Sana,North,Logistics,Qualified,1770000,0.25,442500,Email Nurture,2026-04-15,2026-09-02,Email Nurture
+OPP-0322,Apex Industries,Sana,North,Education,Lead,1711000,0.1,171100,Google Search,2025-04-09,2025-08-23,Google Search
+OPP-0323,Apex Industries,Rohan,North,IT Services,Qualified,1736000,0.25,434000,Partner Referral,2026-07-30,2026-09-16,Partner Referral
+OPP-0324,Orion Industrial,Aarav,East,Logistics,Qualified,4451000,0.25,1112750,LinkedIn,2025-02-22,2025-03-10,LinkedIn
+OPP-0325,Trinity Services,Diya,North,IT Services,Negotiation,2330000,0.7,1631000,Trade Show,2025-08-11,2025-11-09,Trade Show
+OPP-0326,Summit Manufacturing,Aarav,North,Logistics,Lead,756000,0.1,75600,Email Nurture,2025-10-06,2025-11-30,Email Nurture
+OPP-0327,Apex Industries,Aarav,North,Manufacturing,Qualified,957000,0.25,239250,Google Search,2025-11-20,2026-02-10,Google Search
+OPP-0328,Trinity Services,Meera,West,Retail,Won,3045000,1.0,3045000,Trade Show,2025-08-12,2025-12-28,Trade Show
+OPP-0329,Indus Education,Sana,West,Healthcare,Negotiation,3872000,0.7,2710400,Email Nurture,2026-04-05,2026-05-26,Email Nurture
+OPP-0330,Evergreen Health,Diya,South,Retail,Lead,3036000,0.1,303600,Organic,2025-08-28,2026-01-06,Organic
+OPP-0331,BrightPath Consulting,Sana,West,Manufacturing,Negotiation,184000,0.7,128799,LinkedIn,2026-04-22,2026-06-11,LinkedIn
+OPP-0332,Aria Components,Kabir,East,Retail,Negotiation,3339000,0.7,2337300,Email Nurture,2025-08-13,2025-11-05,Email Nurture
+OPP-0333,Aria Components,Sana,South,Education,Won,3611000,1.0,3611000,Organic,2025-06-26,2025-10-16,Organic
+OPP-0334,BrightPath Consulting,Diya,South,IT Services,Won,3211000,1.0,3211000,LinkedIn,2026-05-14,2026-09-01,LinkedIn
+OPP-0335,Quantum Tech,Rohan,East,Retail,Lead,2710000,0.1,271000,Trade Show,2025-01-13,2025-02-09,Trade Show
+OPP-0336,Westline Systems,Rohan,North,Retail,Proposal,3382000,0.5,1691000,Partner Referral,2026-03-20,2026-06-08,Partner Referral
+OPP-0337,Kaveri Engineering,Kabir,South,Logistics,Qualified,3841000,0.25,960250,Partner Referral,2025-07-31,2025-09-13,Partner Referral
+OPP-0338,Falcon Logistics,Meera,South,IT Services,Qualified,2959000,0.25,739750,Partner Referral,2025-07-16,2025-11-07,Partner Referral
+OPP-0339,Fusion Logistics,Rohan,West,Healthcare,Qualified,1332000,0.25,333000,Google Search,2025-06-23,2025-10-22,Google Search
+OPP-0340,Cobalt Systems,Meera,East,Retail,Negotiation,2302000,0.7,1611400,LinkedIn,2025-03-07,2025-06-06,LinkedIn
+OPP-0341,Westline Systems,Diya,East,Education,Won,1113000,1.0,1113000,Partner Referral,2025-01-16,2025-02-22,Partner Referral
+OPP-0342,Apex Industries,Rohan,West,IT Services,Won,4169000,1.0,4169000,Email Nurture,2025-11-08,2026-01-11,Email Nurture
+OPP-0343,Eagle Retail,Rohan,South,IT Services,Won,3543000,1.0,3543000,Organic,2025-04-13,2025-04-28,Organic
+OPP-0344,BluePeak Ltd,Rohan,West,Education,Won,263000,1.0,263000,LinkedIn,2025-07-26,2025-11-16,LinkedIn
+OPP-0345,BluePeak Ltd,Diya,South,Manufacturing,Won,2535000,1.0,2535000,Google Search,2025-07-02,2025-08-14,Google Search
+OPP-0346,Dawn Healthcare,Sana,East,Manufacturing,Proposal,620000,0.5,310000,LinkedIn,2026-01-17,2026-04-17,LinkedIn
+OPP-0347,Evergreen Health,Rohan,East,Retail,Proposal,550000,0.5,275000,Organic,2025-05-03,2025-06-03,Organic
+OPP-0348,Dawn Healthcare,Aarav,East,Retail,Lead,761000,0.1,76100,Email Nurture,2025-12-18,2026-01-15,Email Nurture
+OPP-0349,Kaveri Engineering,Sana,West,Manufacturing,Proposal,2385000,0.5,1192500,Partner Referral,2026-02-13,2026-05-12,Partner Referral
+OPP-0350,Fusion Logistics,Diya,West,Retail,Negotiation,3255000,0.7,2278500,Partner Referral,2025-07-23,2025-11-11,Partner Referral
+OPP-0351,Zenith Foods,Kabir,West,Manufacturing,Lost,1857000,0.0,0,Email Nurture,2026-04-29,2026-06-18,Email Nurture
+OPP-0352,Riverstone Ltd,Meera,North,Education,Proposal,546000,0.5,273000,Google Search,2025-08-21,2026-01-09,Google Search
+OPP-0353,Urban Retail,Sana,East,Logistics,Lead,1041000,0.1,104100,LinkedIn,2025-05-25,2025-07-01,LinkedIn
+OPP-0354,Fusion Logistics,Sana,North,Manufacturing,Lost,1209000,0.0,0,Email Nurture,2025-05-06,2025-05-28,Email Nurture
+OPP-0355,Lotus Retail,Sana,South,Education,Qualified,2499000,0.25,624750,Email Nurture,2025-10-25,2025-12-09,Email Nurture
+OPP-0356,Delta Systems,Aarav,South,Retail,Qualified,4100000,0.25,1025000,LinkedIn,2026-06-16,2026-09-23,LinkedIn
+OPP-0357,Gamma Manufacturing,Diya,West,Retail,Proposal,3167000,0.5,1583500,Google Search,2025-12-10,2026-01-19,Google Search
+OPP-0358,Eagle Retail,Aarav,East,IT Services,Proposal,3635000,0.5,1817500,Partner Referral,2026-07-23,2026-11-02,Partner Referral
+OPP-0359,Riverstone Ltd,Kabir,North,Logistics,Won,4021000,1.0,4021000,LinkedIn,2025-12-24,2026-04-23,LinkedIn
+OPP-0360,Orion Industrial,Meera,North,Logistics,Won,4230000,1.0,4230000,Partner Referral,2025-09-28,2026-02-05,Partner Referral
+OPP-0361,Horizon Tech,Meera,East,Healthcare,Negotiation,1284000,0.7,898800,Organic,2026-01-01,2026-03-16,Organic
+OPP-0362,Nova Systems,Diya,North,Healthcare,Won,2413000,1.0,2413000,Google Search,2025-10-29,2025-12-04,Google Search
+OPP-0363,Trinity Services,Kabir,West,Logistics,Negotiation,173000,0.7,121099,Email Nurture,2025-12-19,2026-04-20,Email Nurture
+OPP-0364,Urban Retail,Rohan,East,Manufacturing,Won,1893000,1.0,1893000,Google Search,2026-04-08,2026-05-21,Google Search
+OPP-0365,Dawn Healthcare,Sana,North,Logistics,Lead,3483000,0.1,348300,Google Search,2025-01-27,2025-03-10,Google Search
+OPP-0366,Gamma Manufacturing,Diya,North,Logistics,Won,2469000,1.0,2469000,Partner Referral,2026-01-31,2026-03-01,Partner Referral
+OPP-0367,Pioneer Logistics,Rohan,East,Manufacturing,Lead,598000,0.1,59800,Trade Show,2026-06-18,2026-07-31,Trade Show
+OPP-0368,Vertex Health,Diya,South,IT Services,Lead,2356000,0.1,235600,Google Search,2025-10-09,2025-10-24,Google Search
+OPP-0369,Kaveri Engineering,Meera,South,Education,Proposal,3876000,0.5,1938000,Google Search,2025-10-20,2025-11-24,Google Search
+OPP-0370,Evergreen Health,Diya,West,IT Services,Lead,4324000,0.1,432400,Partner Referral,2026-03-24,2026-06-10,Partner Referral
+OPP-0371,Crescent Retail,Diya,North,Education,Qualified,2501000,0.25,625250,Email Nurture,2026-05-20,2026-07-30,Email Nurture
+OPP-0372,Gamma Manufacturing,Diya,South,IT Services,Lead,283000,0.1,28300,Trade Show,2025-10-03,2026-01-16,Trade Show
+OPP-0373,Quantum Tech,Meera,North,Manufacturing,Won,1227000,1.0,1227000,Google Search,2025-03-08,2025-06-04,Google Search
+OPP-0374,Eagle Retail,Diya,West,Manufacturing,Lead,320000,0.1,32000,Partner Referral,2025-03-04,2025-06-11,Partner Referral
+OPP-0375,Falcon Logistics,Sana,East,IT Services,Proposal,624000,0.5,312000,Google Search,2025-10-28,2026-01-11,Google Search
+OPP-0376,Dawn Healthcare,Aarav,East,Education,Lead,3758000,0.1,375800,LinkedIn,2026-08-07,2026-10-18,LinkedIn
+OPP-0377,Kaveri Engineering,Sana,East,Healthcare,Won,3265000,1.0,3265000,Partner Referral,2025-09-28,2026-02-12,Partner Referral
+OPP-0378,Zenith Foods,Kabir,East,Logistics,Negotiation,2674000,0.7,1871799,Email Nurture,2025-10-01,2026-01-01,Email Nurture
+OPP-0379,Indus Education,Diya,West,Retail,Proposal,4483000,0.5,2241500,Email Nurture,2025-12-31,2026-01-25,Email Nurture
+OPP-0380,Dawn Healthcare,Meera,West,Healthcare,Won,3419000,1.0,3419000,Partner Referral,2026-08-06,2026-10-13,Partner Referral
+OPP-0381,Kaveri Engineering,Aarav,East,Retail,Proposal,2450000,0.5,1225000,Organic,2025-02-20,2025-06-23,Organic
+OPP-0382,Eagle Retail,Meera,North,Education,Proposal,938000,0.5,469000,Trade Show,2025-04-04,2025-07-01,Trade Show
+OPP-0383,Gamma Manufacturing,Kabir,South,Logistics,Lost,3714000,0.0,0,LinkedIn,2026-08-10,2026-09-28,LinkedIn
+OPP-0384,Horizon Tech,Sana,North,Manufacturing,Lead,984000,0.1,98400,Trade Show,2026-05-10,2026-06-21,Trade Show
+OPP-0385,Cobalt Systems,Meera,West,IT Services,Lost,3499000,0.0,0,Organic,2026-03-28,2026-05-01,Organic
+OPP-0386,Quantum Tech,Meera,North,Retail,Negotiation,4355000,0.7,3048500,Organic,2026-02-15,2026-04-21,Organic
+OPP-0387,Falcon Logistics,Kabir,North,Manufacturing,Negotiation,3722000,0.7,2605400,Partner Referral,2025-09-12,2025-12-22,Partner Referral
+OPP-0388,Eagle Retail,Kabir,East,Manufacturing,Proposal,1457000,0.5,728500,Email Nurture,2025-12-26,2026-04-23,Email Nurture
+OPP-0389,Zenith Foods,Meera,West,Retail,Qualified,882000,0.25,220500,LinkedIn,2026-08-04,2026-10-07,LinkedIn
+OPP-0390,BrightPath Consulting,Meera,West,Manufacturing,Proposal,4478000,0.5,2239000,Trade Show,2025-06-16,2025-10-14,Trade Show
+OPP-0391,Aria Components,Sana,North,Healthcare,Proposal,1273000,0.5,636500,Trade Show,2025-10-22,2026-03-19,Trade Show
+OPP-0392,Orion Industrial,Sana,South,Healthcare,Negotiation,2749000,0.7,1924299,LinkedIn,2025-11-09,2025-12-31,LinkedIn
+OPP-0393,Trinity Services,Sana,North,Logistics,Proposal,3298000,0.5,1649000,Trade Show,2026-04-02,2026-05-01,Trade Show
+OPP-0394,Falcon Logistics,Rohan,North,Logistics,Proposal,2954000,0.5,1477000,Email Nurture,2025-10-31,2026-01-12,Email Nurture
+OPP-0395,Apex Industries,Aarav,North,IT Services,Qualified,346000,0.25,86500,Email Nurture,2025-03-29,2025-04-25,Email Nurture
+OPP-0396,Lotus Retail,Diya,North,IT Services,Won,135000,1.0,135000,Google Search,2025-05-23,2025-08-29,Google Search
+OPP-0397,Riverstone Ltd,Diya,North,Healthcare,Proposal,564000,0.5,282000,Email Nurture,2025-08-13,2025-12-29,Email Nurture
+OPP-0398,Horizon Tech,Diya,East,Logistics,Proposal,2285000,0.5,1142500,LinkedIn,2025-05-15,2025-06-28,LinkedIn
+OPP-0399,Indus Education,Sana,East,IT Services,Proposal,1527000,0.5,763500,Trade Show,2026-03-09,2026-05-02,Trade Show
+OPP-0400,Horizon Tech,Meera,West,Education,Won,2515000,1.0,2515000,Email Nurture,2025-05-15,2025-06-25,Email Nurture

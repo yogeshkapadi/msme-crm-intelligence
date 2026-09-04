@@ -1,0 +1,22 @@
+<!doctype html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CRM Intelligence</title><link rel="stylesheet" href="css/style.css"><script src="https://cdn.jsdelivr.net/npm/chart.js"></script><script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script></head><body data-page="kpis"><div class="app"><aside class="sidebar"><div class="brand">CRM <span>Intelligence</span></div><nav class="nav">
+<div class="nav-label">Analytics</div>
+<a class="" href="dashboard.html">Overview</a>
+<a class="" href="customers.html">Customers</a>
+<a class="" href="pipeline.html">Pipeline</a>
+<a class="" href="sales.html">Sales Performance</a>
+<a class="active" href="reports.html">Reports</a>
+<a href="kpis.html">KPI Center</a><div class="nav-label">Data & Intelligence</div>
+<a class="" href="data.html">Connect Your Data</a>
+<a class="" href="ai.html">AI Analyst</a>
+</nav></aside><main class="main">
+<div class="top"><div><h1>KPI Center</h1><p><span class="badge">DEMO</span> KPI definitions and calculated example values</p></div><div class="actions"><button class="btn" onclick="downloadDemoWorkbook()">↓ Download Demo Data</button></div></div>
+<div class="card"><h3>Sales KPIs</h3><table class="table"><thead><tr><th>KPI</th><th>What it measures</th><th>Demo value</th></tr></thead><tbody>
+<tr><td>Pipeline Velocity</td><td>Speed/value of opportunities moving through the funnel</td><td>Expected pipeline value generated per day</td></tr>
+<tr><td>Win Rate</td><td>Won deals ÷ closed deals</td><td>See Executive Dashboard</td></tr>
+<tr><td>Average Deal Size</td><td>Average revenue per won deal</td><td>See Executive Dashboard</td></tr>
+<tr><td>Lead-to-Opportunity Ratio</td><td>Opportunities generated from leads</td><td id="oppCount">—</td></tr>
+</tbody></table></div><br>
+<div class="card"><h3>Marketing KPIs</h3><table class="table"><thead><tr><th>KPI</th><th>Demo value</th></tr></thead><tbody><tr><td>Lead Conversion Rate</td><td id="leadCount">—</td></tr><tr><td>Cost per Lead</td><td id="cplDetail">—</td></tr><tr><td>Campaign Attribution</td><td>Available by campaign on dashboard</td></tr><tr><td>Email CTR</td><td id="ctrDetail">—</td></tr></tbody></table></div><br>
+<div class="card"><h3>Customer Service KPIs</h3><table class="table"><thead><tr><th>KPI</th><th>Demo value</th></tr></thead><tbody><tr><td>Retention / Churn</td><td id="retentionDetail">— / —</td></tr><tr><td>CSAT</td><td id="csatDetail">—</td></tr><tr><td>Average Response Time</td><td id="responseDetail">—</td></tr><tr><td>Self-Service Rate</td><td>Available on Executive Dashboard</td></tr></tbody></table></div><br>
+<div class="card"><h3>Financial & Operational KPIs</h3><table class="table"><thead><tr><th>KPI</th><th>Demo value</th></tr></thead><tbody><tr><td>MRR</td><td id="mrrDetail">—</td></tr><tr><td>MRR Growth</td><td id="mrrGrowth">—</td></tr><tr><td>Churn Rate</td><td id="churnDetail">—</td></tr></tbody></table></div>
+</main></div><script src="js/demo-data.js"></script><script src="js/app.js"></script></body></html>
