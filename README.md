@@ -4,7 +4,7 @@ A privacy-first, GitHub Pages-ready CRM analytics prototype.
 
 ## Demo-first experience
 
-The app opens with a fully populated demo dashboard using `data/sample_crm.csv`.
+The app opens with a fully populated demo dashboard using `data/ (demo datasets)`.
 
 Customers can:
 1. Explore all dashboard pages with realistic dummy data.
@@ -34,7 +34,7 @@ The current browser session retains the selected dataset using `sessionStorage` 
 
 ## Test data
 
-`data/sample_crm.csv` contains 300 dummy CRM opportunities.
+`data/ (demo datasets)` contains 300 dummy CRM opportunities.
 
 A standalone copy is included outside the project as `CRM_Intelligence_Demo_Data.csv`.
 
@@ -67,7 +67,7 @@ Chart.js and SheetJS are loaded from public CDNs in this MVP. The CRM data itsel
 
 The demo dashboard is designed to work even when you double-click `index.html` and the browser uses a `file://` URL. A browser security rule can block JavaScript from fetching a separate local CSV file. To avoid a blank demo dashboard, the demo dataset is also embedded in `js/demo-data.js` as a local fallback.
 
-When deployed on GitHub Pages, the app first reads `data/sample_crm.csv`; the embedded copy remains as a fallback.
+When deployed on GitHub Pages, the app first reads `data/ (demo datasets)`; the embedded copy remains as a fallback.
 
 For the most realistic development experience, you can also run a local web server (for example VS Code Live Server).
 
@@ -76,8 +76,8 @@ For the most realistic development experience, you can also run a local web serv
 
 The demo dataset is embedded in `js/demo-data.js` and is loaded **before** `app.js`.
 This is intentional: when `index.html` is opened directly with `file://`, browsers may block
-`fetch("./data/sample_crm.csv")`. The application therefore uses the embedded demo dataset
-first, and uses the relative `./data/sample_crm.csv` path when running under a web server such
+`fetch("./data/ (demo datasets)")`. The application therefore uses the embedded demo dataset
+first, and uses the relative `./data/ (demo datasets)` path when running under a web server such
 as GitHub Pages.
 
 If an older browser session contains an empty dataset, the app now ignores it and loads the demo.
@@ -106,6 +106,18 @@ The demo now calculates Pipeline Velocity as a directional sales-velocity KPI us
 
 The Connect My Data gate sends only lead metadata (Name, Company Name, optional Business Email, contact preference and purpose) to the configured Google Apps Script web app. The customer's Excel/CSV file is not included in that request and remains local to the browser.
 
-Before publishing this release, update the Apps Script deployment with the code in `GOOGLE_APPS_SCRIPT_CODE.gs` and deploy it as the existing web app. The deployed web app must accept public POST requests and execute as the Google account that owns the Form.
+Before publishing this release, update the Apps Script deployment with the code in `Google Apps Script lead endpoint (configured in js/app.js)` and deploy it as the existing web app. The deployed web app must accept public POST requests and execute as the Google account that owns the Form.
 
 Feedback and 2-Minute Diagnostic buttons open their respective Google Forms. Do not put customer Excel/CSV data into those Forms or their response Sheets.
+
+
+## v5.1 data robustness
+- Probability values in common 0–100 percentage format are normalized to 0–1 before calculations.
+- Uploads should be checked for missing/invalid values; the app does not upload CRM files to the lead-capture form.
+- Unknown sales stages are surfaced as a data warning rather than silently treated as a valid stage.
+- A domain with no uploaded rows should be treated as **No data**, not as a business result of zero.
+
+
+## v5.1.1 visual update
+- Sidebar section headings use the same branded title-case visual language as the CRM Intelligence identity.
+- Navigation structure, active states, and functionality are unchanged.

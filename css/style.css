@@ -53,3 +53,31 @@ a{color:inherit}.app{display:flex;min-height:100vh}.sidebar{width:238px;backgrou
 @media(max-width:650px){
   .sidebar-footer { padding-top:12px; }
 }
+
+
+/* v5.1.1 — branded sidebar section headings */
+.sidebar .nav-section,
+.sidebar .section-label,
+.sidebar .nav-group-title,
+.sidebar .nav-label {
+  color: #f3f6ff;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: none;
+  font-size: 18px;
+  line-height: 1.25;
+  margin-top: 28px;
+  margin-bottom: 10px;
+}
+
+/* v5.1.1 — make the Contact section heading consistent with the branded sidebar headings */
+.sidebar .sidebar-contact-label {
+  color: #f3f6ff;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: none;
+  font-size: 18px;
+  line-height: 1.25;
+  margin-top: 28px;
+  margin-bottom: 10px;
+}
