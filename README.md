@@ -32,6 +32,18 @@ CSV/Excel processing happens in the browser. This MVP has no server-side upload 
 
 The current browser session retains the selected dataset using `sessionStorage` so navigation between pages continues to use it. Closing the browser/session clears it.
 
+
+## Local AI — MVP setup
+
+The Local AI Analyst runs Qwen through Ollama on the customer's own computer. The setup wizard detects macOS, Windows, Linux or another operating system, recommends a conservative model based on the customer's RAM selection, and provides the operating-system-specific Ollama download page.
+
+Because a browser page hosted on GitHub Pages is a different origin from Ollama's local API, the wizard also provides a **one-time `OLLAMA_ORIGINS` setup step**. This allows the customer's browser to connect to Ollama at `localhost:11434`. The wizard uses the current CRM website origin plus the local development origin and does not recommend a wildcard (`*`) origin.
+
+For the MVP, this is intentionally a guided customer step rather than a desktop installer. The customer does not need an API key. The actual CRM AI request remains local when Local AI is used.
+
+Official Ollama downloads: https://ollama.com/download
+Official Ollama origin configuration: https://docs.ollama.com/faq#how-can-i-allow-additional-web-origins-to-access-ollama
+
 ## Test data
 
 `data/ (demo datasets)` contains 300 dummy CRM opportunities.

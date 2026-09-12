@@ -210,3 +210,13 @@ body.local-ai-chat-page .ai-chat-page-composer {
 .ai-attachment{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:0 auto 8px;max-width:1050px;padding:8px 10px;border:1px solid var(--line);border-radius:9px;background:#fbfcfe}
 .ai-attachment-main{display:flex;align-items:center;gap:9px;min-width:0}.ai-attachment-icon{font-size:17px}.ai-attachment-main b{display:block;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:520px}.ai-attachment-main .small{display:block;font-size:10px;color:var(--muted);margin-top:2px}.ai-attachment-remove{border:0;background:transparent;color:var(--muted);font-size:20px;line-height:1;cursor:pointer;padding:3px 6px}.ai-file-status{max-width:1050px;margin:0 auto 7px;font-size:10px;color:#356052}.ai-file-status.error{color:#a13d3d}.ai-attach-btn{width:34px;height:34px;flex:0 0 34px;border:0;border-radius:8px;background:#f1f3f7;color:var(--text);font-size:19px;line-height:1;cursor:pointer}.ai-attach-btn:hover{background:#e9edf5}.ai-attach-btn:disabled{opacity:.45;cursor:not-allowed}.ai-chat-page-composer .ai-chat-footer{max-width:1050px}
 @media(max-width:650px){.ai-attachment-main b{max-width:calc(100vw - 105px)}.ai-file-status{margin-left:0;margin-right:0}.ai-attach-btn{width:32px;flex-basis:32px}}
+
+/* v5.6 — OS-specific Ollama connection setup */
+.ai-origin-setup{margin-top:12px;padding:13px;border:1px solid #d8e0ef;border-radius:10px;background:#f8faff}
+.ai-origin-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.ai-origin-badge{display:inline-flex;align-items:center;padding:4px 8px;border-radius:999px;background:#eef2ff;border:1px solid #d8def8;color:#34488a;font-size:10px;font-weight:800;white-space:nowrap}
+.ai-origin-command{display:flex;gap:8px;align-items:center;margin-top:10px}
+.ai-origin-command code{flex:1;padding:10px;border-radius:8px;background:#fff;border:1px solid var(--line);font-size:11px;overflow:auto;white-space:nowrap}
+.ai-origin-check{margin-top:10px;padding:9px 10px;border-radius:8px;background:#fff;border:1px solid var(--line);font-size:12px}
+.ai-origin-check input{margin-right:7px}
+@media(max-width:520px){.ai-origin-head{display:block}.ai-origin-badge{margin-top:8px}.ai-origin-command{display:block}.ai-origin-command .btn{margin-top:8px}.ai-origin-command code{display:block}}
