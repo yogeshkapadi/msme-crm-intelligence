@@ -1,3 +1,7 @@
+# v5.8 — Remembered Local AI Connection
+
+This release remembers a successful Local AI/Ollama connection in the current browser. When the user opens AI Analyst again, the app checks the local Ollama service and goes directly to `local-ai-chat.html` when the connection is still healthy. If the connection is unavailable, the remembered state is cleared and the user is directed back through Local AI setup. No CRM data is sent to a server by this feature.
+
 # CRM Intelligence — Demo-Ready MVP
 
 A privacy-first, GitHub Pages-ready CRM analytics prototype.

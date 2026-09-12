@@ -124,7 +124,7 @@
       else if(models.some(m=>m.name==="qwen3.5:4b")) modelSelect.value="qwen3.5:4b";
       modelSelect.disabled=false;setChatEnabled(true);setStatus("Connected · "+models.length+" model"+(models.length===1?"":"s"),true);setupMessage.textContent="Ollama is running and a local model is available. Local AI Analyst is ready.";setSetupStep(3);askStatus.textContent="Ready";return true;
     }catch(e){
-      setChatEnabled(false);setStatus("Ollama not reachable",false);setupMessage.innerHTML="<b>Ollama is not reachable.</b> Please open Ollama and click <b>Check Connection</b> again.";setSetupStep(2);showCORSNote();if(!opts.silent)showOpenHelp();return false;
+      setChatEnabled(false);setStatus("Ollama not reachable",false);setupMessage.innerHTML='<b>Local AI connection lost.</b> Please return to <a href="ai.html"><b>AI Analyst setup</b></a> and reconnect Ollama on this computer. You can also <button type="button" class="btn" id="chatRetryInline">Retry connection</button> here.';setSetupStep(2);showCORSNote();if(!opts.silent)showOpenHelp();document.getElementById("chatRetryInline")?.addEventListener("click",()=>connectOllama());if(opts.silent){localStorage.removeItem("crmLocalOllamaConnected");localStorage.removeItem("crmLocalOllamaModel");}return false;
     }
   }
   function clearChat(){chatHistory=[];messages.querySelectorAll(".ai-msg").forEach(x=>x.remove());if(empty)empty.style.display="block";askStatus.textContent=modelSelect.value?"Ready":"Connect Ollama to begin";messages.scrollTop=0;input.value="";input.style.height="auto";clearAttachment();input.focus();}
