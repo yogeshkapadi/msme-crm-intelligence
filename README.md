@@ -121,3 +121,68 @@ Feedback and 2-Minute Diagnostic buttons open their respective Google Forms. Do 
 ## v5.1.1 visual update
 - Sidebar section headings use the same branded title-case visual language as the CRM Intelligence identity.
 - Navigation structure, active states, and functionality are unchanged.
+
+## AI Analyst — v5.2 privacy-first design
+
+The AI Analyst page now presents three AI paths:
+
+- **Local AI — Ollama:** enabled in the MVP. The browser can connect to Ollama running on the user's own computer at its local API endpoint. The app sends only the analytics context and question to the local Ollama service.
+- **Bring Your Own AI Key (BYOK):** intentionally not enabled yet. API-key handling requires careful browser-side credential protection, provider-specific controls, explicit data-flow disclosure, and security testing.
+- **Managed Cloud AI:** intentionally not enabled yet. A secure backend/gateway, authentication, provider controls, cost management, and explicit cloud-data processing safeguards are required.
+
+The product deliberately prefers an unavailable feature over an incomplete integration that could expose business data or credentials. Users interested in BYOK or managed cloud AI are directed to contact the project team.
+
+Ollama's local API is documented by Ollama at `http://localhost:11434/api` after installation and startup.
+
+## Local AI setup
+
+The AI Analyst page does **not** ship or execute a custom Ollama installer. This is intentional: users download Ollama directly from the official Ollama website and install it themselves. The page then guides the user to open Ollama and checks the local API at `http://localhost:11434/api`.
+
+The setup flow is: **Download Official Ollama → Open Ollama → Check Connection → Detect local models → Use Local AI Analyst**. The site never receives the user's Ollama credentials and does not upload CRM/Excel data to the project.
+
+Ollama documents the local API and its local-origin configuration in its official documentation.
+
+
+## AI Analyst — v5.3
+The AI Analyst is organized into three sub-pages under the existing **Data & Intelligence → AI Analyst** navigation item:
+- `local-ai.html` — **Local AI — Maximum Privacy** (enabled with Ollama)
+- `byok.html` — **Bring Your Own AI Key** (not yet enabled; security-first explanation)
+- `managed-cloud-ai.html` — **Managed Cloud AI** (not yet enabled; secure gateway architecture explanation)
+
+The main `ai.html` page is the AI Analyst choice/overview page. BYOK and Managed Cloud AI are intentionally informational only until the required security architecture is implemented and tested.
+
+## Local AI setup wizard
+
+The Local AI page now uses a hardware-aware setup wizard rather than asking users to choose a Qwen model manually.
+
+- Detects operating system and browser CPU concurrency.
+- Asks for RAM when desktop browser APIs do not expose it reliably.
+- Recommends an official Qwen 3.5 model conservatively:
+  - 8 GB → `qwen3.5:2b`
+  - 16 GB → `qwen3.5:4b`
+  - 24–32 GB → `qwen3.5:9b`
+  - 64 GB+ → `qwen3.5:27b` (higher-resource option)
+  - Not sure → `qwen3.5:2b` fallback
+- Provides the official Ollama download page for the detected operating system.
+- Offers a user-initiated local model pull through Ollama when the local API permits it, with a command-line fallback.
+- Verifies Ollama and opens the dedicated `local-ai-chat.html` workspace only after a local model is detected.
+- Stores only the selected local model name in browser `localStorage`; no CRM data is sent to the web application server.
+
+These model-size recommendations are conservative application guidance, not official Ollama hardware requirements. Larger models can materially increase local RAM/CPU/GPU usage.
+
+## v5.5 — Controlled Local Supporting Files
+
+Local AI Analyst can accept a user-selected supporting file of **any file type**, with a hard **10 MB maximum**. The file is processed in the browser and is not uploaded to a CRM server or cloud AI provider.
+
+To protect customer systems:
+- Maximum file size: 10 MB
+- One supporting file per message
+- File contents are kept in memory only for the current chat session
+- Extracted context sent to Ollama is capped to a compact 12,000-character context
+- Text, CSV/TSV, JSON/XML/Markdown/code/text formats are extracted directly
+- Excel workbooks are summarized through the existing browser-side SheetJS parser
+- PDF and DOCX text extraction is attempted locally when the bundled browser parser is available
+- Unsupported binary formats are represented by metadata only rather than loading arbitrary binary content into the model
+- No folder upload, background indexing, permanent file storage, or model training is performed
+
+The 10 MB limit is intentionally independent of the user's model size so that attachment handling remains predictable on local machines.

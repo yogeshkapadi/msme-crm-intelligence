@@ -1,0 +1,134 @@
+<!doctype html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CRM Intelligence — Local AI — Maximum Privacy</title><link rel="stylesheet" href="css/style.css"><script src="https://cdn.jsdelivr.net/npm/chart.js"></script><script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js"></script><script src="https://cdn.jsdelivr.net/npm/mammoth@1.9.0/mammoth.browser.min.js"></script></head><body data-page="ai" class="local-ai-chat-page"><div class="app"><aside class="sidebar"><div class="brand">CRM <span>Intelligence</span></div><nav class="nav">
+<div class="nav-label">Analytics</div>
+<a class="" href="dashboard.html">Overview</a><a class="" href="customers.html">Customers</a><a class="" href="pipeline.html">Pipeline</a><a class="" href="sales.html">Sales Performance</a><a class="" href="reports.html">Reports</a><a class="" href="kpis.html">KPI Center</a>
+<div class="nav-label">Data & Intelligence</div><a class="" href="data.html">Connect Your Data</a><a class="active" href="ai.html">AI Analyst</a>
+<div class="nav-label">Feedback & Research</div><a class="" href="feedback.html">Give Feedback</a><a class="" href="survey.html">2-Minute Diagnostic</a></nav>
+<div class="sidebar-footer"><div class="sidebar-contact-label">Contact</div><a href="mailto:yogesh.kapadi.iimk@gmail.com">yogesh.kapadi.iimk@gmail.com</a><div class="sidebar-copyright">© 2026 MSME CRM Intelligence</div></div></aside><main class="main">
+<div class="ai-subpage-head"><div><div class="ai-breadcrumb"><a href="ai.html">AI Analyst</a> / <a href="local-ai.html">Local AI</a> / Chat</div><h1>AI Analyst</h1><p><span class="ai-live">LOCAL &amp; PRIVATE</span> Your CRM analyst is running through Ollama on this computer.</p></div><div class="ai-page-actions"><a class="btn" href="local-ai.html">← Local AI</a></div></div>
+<div class="card ai-chat-page-shell" id="ollamaWorkspace">
+  <div class="ai-chat-topbar"><div class="ai-chat-identity"><div class="ai-chat-avatar">🔒</div><div><h2>Ask your CRM Analyst</h2><p class="small">Sales · Pipeline · Customers · Marketing · Service · Financials</p></div></div><div class="ai-chat-top-controls"><span class="ai-local-status-badge" id="ollamaStatus">Connecting…</span><select id="ollamaModel" aria-label="Ollama model"><option value="">Connecting…</option></select><button class="btn" id="ollamaRefreshBtn" type="button">Refresh</button><button class="btn" id="ollamaClearBtn" type="button">＋ New chat</button></div></div>
+  <div id="ollamaSetupMessage" style="display:none"></div><div id="ollamaStepInstall" style="display:none"></div><div id="ollamaStepOpen" style="display:none"></div><div id="ollamaStepConnect" style="display:none"></div><div id="ollamaSetupStep" style="display:none"></div><div id="ollamaTroubleshoot" style="display:none"></div>
+  <div class="ai-chat-messages ai-chat-page-messages" id="ollamaMessages"><div class="ai-empty-state" id="ollamaEmptyState"><div class="ai-empty-icon">🔒</div><h3>What would you like to understand?</h3><p>Ask a business question and I’ll use the current CRM analytics context. I’ll separate evidence from recommendations and won’t invent missing facts.</p><div class="ai-empty-prompts"><button class="ai-prompt-card" type="button" data-ai-prompt="What are the most important commercial risks visible in my current CRM data? Use the available metrics and explain the evidence behind each risk."><b>Commercial risks</b><span>Find the biggest issues management should investigate.</span></button><button class="ai-prompt-card" type="button" data-ai-prompt="Analyze my sales pipeline. Identify where the biggest opportunities or leakage appear to be and explain what management should investigate."><b>Pipeline analysis</b><span>Identify bottlenecks, concentration and leakage.</span></button><button class="ai-prompt-card" type="button" data-ai-prompt="Which customers deserve management attention based on the current CRM data? Explain the evidence."><b>Customer attention</b><span>Highlight customer concentration and risk.</span></button><button class="ai-prompt-card" type="button" data-ai-prompt="Give management five practical priorities based only on the current CRM analytics context. Separate observations from recommendations."><b>Management priorities</b><span>Turn the current metrics into actions.</span></button></div></div></div>
+  <div class="ai-chat-composer ai-chat-page-composer"><div id="ollamaAttachment" class="ai-attachment" style="display:none"><div class="ai-attachment-main"><span class="ai-attachment-icon">📎</span><div><b id="ollamaFileName">File</b><span id="ollamaFileMeta" class="small">0 MB</span></div></div><button type="button" class="ai-attachment-remove" id="ollamaFileRemove" aria-label="Remove attached file">×</button></div><div id="ollamaFileStatus" class="ai-file-status" style="display:none"></div><div class="ai-chat-composer-row"><button class="ai-attach-btn" type="button" id="ollamaAttachBtn" disabled title="Attach a supporting file (maximum 10 MB)">＋</button><textarea id="ollamaQuestion" class="ai-question ai-chat-input" rows="1" placeholder="Ask your CRM Analyst…" disabled></textarea><button class="btn primary ai-send" type="button" id="ollamaAskBtn" aria-label="Send question" disabled>➤</button></div><input id="ollamaFileInput" type="file" hidden><div class="ai-chat-footer"><span id="ollamaAskStatus">Connecting to local Ollama…</span><span>🔒 Local file only · Maximum 10 MB · Not uploaded to a server</span></div></div>
+</div>
+<div class="ai-chat-context-note"><b>Privacy:</b> Your Excel/CSV remains in your browser. Only the selected analytics context is sent to Ollama running on your computer.</div>
+<div class="ai-chat-backup-actions"><a class="btn" href="local-ai.html">Local AI connection &amp; setup</a><a class="btn" href="mailto:yogesh.kapadi.iimk@gmail.com?subject=MSME%20CRM%20Intelligence%20Local%20AI%20Help">Get help</a></div>
+<div class="modal-backdrop" id="aiOpenOllamaModal" style="display:none"><div class="modal-card ai-coming-modal"><button class="modal-close" id="aiOpenOllamaClose" type="button">×</button><h3>Ollama connection</h3><p id="aiOpenOllamaInstructions"></p><button class="btn" id="aiOpenOllamaClose2" type="button">Close</button></div></div>
+</main></div><script src="js/demo-data.js"></script><script src="js/app.js"></script><script>
+(function(){
+  const OLLAMA_BASE="http://localhost:11434/api";
+  const $=id=>document.getElementById(id);
+  const status=$("ollamaStatus"),workspace=$("ollamaWorkspace"),modelSelect=$("ollamaModel");
+  const messages=$("ollamaMessages"),empty=$("ollamaEmptyState"),input=$("ollamaQuestion"),askBtn=$("ollamaAskBtn"),askStatus=$("ollamaAskStatus"),attachBtn=$("ollamaAttachBtn"),fileInput=$("ollamaFileInput"),attachmentBox=$("ollamaAttachment"),fileNameEl=$("ollamaFileName"),fileMetaEl=$("ollamaFileMeta"),fileStatus=$("ollamaFileStatus"),fileRemove=$("ollamaFileRemove");
+  const setupMessage=$("ollamaSetupMessage"),stepInstall=$("ollamaStepInstall"),stepOpen=$("ollamaStepOpen"),stepConnect=$("ollamaStepConnect");
+  let chatHistory=[];
+  let attachedFile=null;
+  const MAX_FILE_BYTES=10*1024*1024;
+  const MAX_CONTEXT_CHARS=12000;
+  const setStatus=(text,ok)=>{if(status){status.textContent=text;status.className="ai-local-status-badge "+(ok?"ok":"");}};
+  function setChatEnabled(enabled){if(input)input.disabled=!enabled;if(askBtn)askBtn.disabled=!enabled;if(attachBtn)attachBtn.disabled=!enabled;if(modelSelect)modelSelect.disabled=!enabled;}
+  function num(v){if(typeof v==='number')return v;const n=parseFloat(String(v??'').replace(/[^0-9.-]/g,''));return Number.isFinite(n)?n:0;}
+  function latestTwoMonths(rows){const months=[...new Set(rows.map(r=>r.Month).filter(Boolean))].sort();return{last:months.at(-1)||"",prev:months.at(-2)||""};}
+  function buildContext(){try{const o=typeof opportunities==='function'?opportunities():[],m=state.datasets.marketing||[],sv=state.datasets.service||[],f=state.datasets.financial||[],c=state.datasets.customers||[];const won=o.filter(r=>r.stage==="Won"),closed=o.filter(r=>["Won","Lost"].includes(r.stage)),open=o.filter(r=>!["Won","Lost"].includes(r.stage));const revenue=won.reduce((a,r)=>a+r.value,0),pipeline=open.reduce((a,r)=>a+r.value,0),win=won.length/(closed.length||1)*100;const leads=m.reduce((a,r)=>a+num(r.Leads),0),mwon=m.reduce((a,r)=>a+num(r["Won Customers"]),0),spend=m.reduce((a,r)=>a+num(r.Spend),0),resp=sv.reduce((a,r)=>a+num(r["First Response Hours"]),0)/(sv.length||1),csat=sv.reduce((a,r)=>a+num(r.CSAT),0)/(sv.length||1);const lm=latestTwoMonths(f),last=lm.last,prev=lm.prev,mrr=f.filter(r=>r.Month===last).reduce((a,r)=>a+num(r.MRR),0),pmrr=f.filter(r=>r.Month===prev).reduce((a,r)=>a+num(r.MRR),0);const customerRevenue={};o.forEach(r=>{if(r.customer)customerRevenue[r.customer]=(customerRevenue[r.customer]||0)+(r.stage==="Won"?r.value:0)});const topCustomers=Object.entries(customerRevenue).sort((a,b)=>b[1]-a[1]).slice(0,10).map(([name,val])=>({customer:name,wonRevenue:Math.round(val)}));return{source:state.source,recordCounts:{customers:c.length,opportunities:o.length,marketing:m.length,service:sv.length,financial:f.length},sales:{wonRevenue:Math.round(revenue),openPipeline:Math.round(pipeline),winRate:+win.toFixed(1),averageWonDeal:won.length?Math.round(revenue/won.length):0,stageCounts:Object.fromEntries(["Lead","Qualified","Proposal","Negotiation","Won","Lost"].map(st=>[st,o.filter(r=>r.stage===st).length]))},marketing:{leads,mwonCustomers:mwon,leadConversionRate:+(mwon/(leads||1)*100).toFixed(1),spend:Math.round(spend),cpl:Math.round(spend/(leads||1))},service:{averageResponseHours:+resp.toFixed(1),csat:+csat.toFixed(2)},financial:{latestMonth:last||"",mrr:Math.round(mrr),mrrGrowth:+((mrr/(pmrr||1)-1)*100).toFixed(1)},customerRetention:c.length?+(c.filter(r=>r.Status==="Active").length/c.length*100).toFixed(1):null,topCustomers};}catch(e){return{error:"Could not prepare the current analytics context."};}}
+  function esc(v){return String(v??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/\"/g,"&quot;");}
+  function inlineMd(t){return esc(String(t||"")).replace(/&lt;br\s*\/?&gt;/gi,"<br>").replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>").replace(/`([^`]+)`/g,"<code>$1</code>");}
+  function renderMarkdown(text){const lines=String(text||"").split(/\r?\n/),out=[];let i=0,inList=false,listType="ul";function closeList(){if(inList){out.push("</"+listType+">");inList=false;}}while(i<lines.length){let line=lines[i];if(/^```chart\s*$/i.test(line)){closeList();let buf=[];i++;while(i<lines.length&&!/^```\s*$/.test(lines[i])){buf.push(lines[i++]);}if(i<lines.length)i++;try{const spec=JSON.parse(buf.join("\n"));const id="chart_"+Math.random().toString(36).slice(2);out.push('<div class="ai-rich-chart"><div class="ai-chart-title">'+esc(spec.title||"Chart")+'</div><canvas id="'+id+'"></canvas></div>');setTimeout(()=>drawChart(id,spec),0);}catch(e){out.push('<pre>'+esc(buf.join("\n"))+'</pre>');}continue;}if(/^```/.test(line)){closeList();let buf=[];i++;while(i<lines.length&&!/^```\s*$/.test(lines[i]))buf.push(lines[i++]);if(i<lines.length)i++;out.push('<pre><code>'+esc(buf.join("\n"))+'</code></pre>');continue;}if(/^\|.*\|$/.test(line)&&i+1<lines.length&&/^\|?\s*:?-+:?\s*(\|\s*:?-+:?\s*)+\|?$/.test(lines[i+1])){closeList();const rows=[];rows.push(line.split("|").slice(1,-1).map(x=>x.trim()));i+=2;while(i<lines.length&&/^\|.*\|$/.test(lines[i])){rows.push(lines[i].split("|").slice(1,-1).map(x=>x.trim()));i++;}let html='<table class="ai-rich-table"><thead><tr>'+rows[0].map(x=>'<th>'+inlineMd(x)+'</th>').join("")+'</tr></thead><tbody>'+rows.slice(1).map(r=>'<tr>'+rows[0].map((_,j)=>'<td>'+inlineMd(r[j]||"")+'</td>').join("")+'</tr>').join("")+'</tbody></table>';out.push(html);continue;}if(/^#{1,3}\s+/.test(line)){closeList();out.push('<h4>'+inlineMd(line.replace(/^#{1,3}\s+/,''))+'</h4>');i++;continue;}if(/^[-*]\s+/.test(line)){if(!inList||listType!=="ul"){closeList();out.push("<ul>");inList=true;listType="ul";}out.push("<li>"+inlineMd(line.replace(/^[-*]\s+/,""))+"</li>");i++;continue;}if(/^\d+[.)]\s+/.test(line)){if(!inList||listType!=="ol"){closeList();out.push("<ol>");inList=true;listType="ol";}out.push("<li>"+inlineMd(line.replace(/^\d+[.)]\s+/,""))+"</li>");i++;continue;}if(!line.trim()){closeList();i++;continue;}closeList();let para=line;while(i+1<lines.length&&lines[i+1].trim()&&!/^[-*]\s+/.test(lines[i+1])&&!/^\d+[.)]\s+/.test(lines[i+1])&&!/^\|.*\|$/.test(lines[i+1])&&!/^#{1,3}\s+/.test(lines[i+1])&&!/^```/.test(lines[i+1])){i++;para+=" "+lines[i];}out.push("<p>"+inlineMd(para)+"</p>");i++;}closeList();return out.join("");}
+  function drawChart(id,spec){const canvas=document.getElementById(id);if(!canvas||typeof Chart==='undefined')return;const labels=Array.isArray(spec.labels)?spec.labels:[];const datasets=Array.isArray(spec.datasets)?spec.datasets:[];new Chart(canvas,{type:["bar","line","doughnut","pie"].includes(spec.type)?spec.type:"bar",data:{labels,datasets:datasets.map(d=>({label:d.label||"Series",data:Array.isArray(d.data)?d.data:[],borderWidth:2,tension:.25}))},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:datasets.length>1||spec.type==="doughnut"||spec.type==="pie"}}}});}
+  function formatMB(bytes){return (bytes/1024/1024).toFixed(2)+" MB";}
+  function safeText(text){const t=String(text||"");return t.length>MAX_CONTEXT_CHARS?t.slice(0,MAX_CONTEXT_CHARS)+"\n[File context truncated to protect local resources.]":t;}
+  async function extractFileContext(file){
+    const name=file.name||"Unnamed file", type=(file.type||"").toLowerCase(), ext=(name.split(".").pop()||"").toLowerCase();
+    if(file.size>MAX_FILE_BYTES) throw new Error("This file is larger than the 10 MB local AI limit.");
+    const textLike=type.startsWith("text/")||["txt","csv","tsv","json","md","markdown","xml","html","htm","log","yaml","yml","js","ts","css","py","sql","rtf"].includes(ext);
+    if(textLike){return {kind:"text",content:safeText(await file.text())};}
+    if(["xlsx","xls","xlsm","xltx","xltm"].includes(ext)||type.includes("spreadsheet")||type.includes("excel")){
+      if(typeof XLSX==="undefined") throw new Error("Spreadsheet reader is unavailable in this browser.");
+      const wb=XLSX.read(await file.arrayBuffer(),{type:"array",cellDates:true}); let parts=[];
+      for(const sheet of wb.SheetNames){const ws=wb.Sheets[sheet];const rows=XLSX.utils.sheet_to_json(ws,{header:1,defval:""});parts.push("SHEET: "+sheet+"\n"+XLSX.utils.sheet_to_csv(ws) .slice(0,4000)); if(parts.join("\n\n").length>MAX_CONTEXT_CHARS)break;}
+      return {kind:"spreadsheet",content:safeText(parts.join("\n\n"))};
+    }
+    if(ext==="pdf"||type==="application/pdf"){
+      try{
+        const pdfjs=window.pdfjsLib;
+        if(!pdfjs) return {kind:"metadata",content:"PDF file attached. Browser PDF text extraction is unavailable, so only file metadata is provided."};
+        const pdf=await pdfjs.getDocument({data:await file.arrayBuffer()}).promise; let out=[];
+        const pages=Math.min(pdf.numPages,12);
+        for(let i=1;i<=pages;i++){const page=await pdf.getPage(i);const tc=await page.getTextContent();out.push("PAGE "+i+"\n"+tc.items.map(x=>x.str).join(" "));if(out.join("\n\n").length>MAX_CONTEXT_CHARS)break;}
+        return {kind:"pdf",content:safeText(out.join("\n\n"))};
+      }catch(e){return {kind:"metadata",content:"PDF file attached, but text extraction failed. Only file metadata is provided."};}
+    }
+    if(ext==="docx"||type==="application/vnd.openxmlformats-officedocument.wordprocessingml.document"){
+      if(window.mammoth){const result=await window.mammoth.extractRawText({arrayBuffer:await file.arrayBuffer()});return {kind:"docx",content:safeText(result.value)};}
+      return {kind:"metadata",content:"DOCX file attached. Word text extraction is unavailable, so only file metadata is provided."};
+    }
+    return {kind:"metadata",content:"A file was attached, but this file type is not safely parsed by the browser. Use the filename, type and size as metadata only; do not infer file contents."};
+  }
+  function setAttachmentStatus(text,error=false){if(!fileStatus)return;fileStatus.textContent=text;fileStatus.style.display=text?"block":"none";fileStatus.className="ai-file-status"+(error?" error":"");}
+  async function handleFile(file){
+    if(!file)return;
+    clearAttachment();
+    if(file.size>MAX_FILE_BYTES){setAttachmentStatus("⚠️ File rejected: maximum size is 10 MB.",true);return;}
+    attachmentBox.style.display="flex";fileNameEl.textContent=file.name;fileMetaEl.textContent=formatMB(file.size)+" · "+(file.type||"unknown type");setAttachmentStatus("Preparing file locally…");
+    try{const extracted=await extractFileContext(file);attachedFile={name:file.name,size:file.size,type:file.type||"unknown",kind:extracted.kind,content:extracted.content};setAttachmentStatus("✓ File prepared locally · no upload");}
+    catch(e){clearAttachment();setAttachmentStatus("⚠️ "+(e.message||"Could not read this file."),true);}
+  }
+  function clearAttachment(){attachedFile=null;if(attachmentBox)attachmentBox.style.display="none";if(fileInput)fileInput.value="";if(fileStatus){fileStatus.textContent="";fileStatus.style.display="none";}}
+  function buildAttachmentContext(){if(!attachedFile)return "";return "\n\nATTACHED SUPPORTING FILE (processed locally; never infer content beyond this extracted context):\n"+JSON.stringify({name:attachedFile.name,sizeBytes:attachedFile.size,type:attachedFile.type,extraction:attachedFile.kind,content:attachedFile.content});}
+  function addMessage(role,text){if(empty)empty.style.display="none";const wrap=document.createElement("div");wrap.className="ai-msg "+role;const avatar=document.createElement("div");avatar.className="ai-msg-avatar";avatar.textContent=role==="user"?"You":"🔒";const bubble=document.createElement("div");bubble.className="ai-msg-bubble";bubble.innerHTML=role==="assistant"?renderMarkdown(text):inlineMd(text).replace(/\n/g,"<br>");wrap.append(avatar,bubble);messages.appendChild(wrap);messages.scrollTop=messages.scrollHeight;return wrap;}
+  function addTyping(){if(empty)empty.style.display="none";const wrap=document.createElement("div");wrap.className="ai-msg assistant";wrap.id="aiTyping";wrap.innerHTML='<div class="ai-msg-avatar">🔒</div><div class="ai-msg-bubble"><span class="ai-typing"><span></span><span></span><span></span></span></div>';messages.appendChild(wrap);messages.scrollTop=messages.scrollHeight;return wrap;}
+  async function askLocalAI(){
+    const q=input.value.trim(),model=modelSelect.value;
+    if(!q||!model)return;
+    addMessage("user",q);
+    input.value=""; input.style.height="auto"; askBtn.disabled=true; askStatus.textContent="Analyzing locally…";
+    const typing=addTyping();
+    const system="You are the local AI analyst inside MSME CRM Intelligence. Analyze only the business context and any attached supporting-file context supplied below. Never invent missing facts. Distinguish observations from recommendations. Treat an attached file as supporting evidence, not as permission to assume facts that were not extracted. Use concise management language. Currency values are INR. You may use Markdown tables. When a visual trend would materially improve the answer, return exactly one fenced block beginning with ```chart and ending with ```, containing valid JSON with keys type (bar, line, doughnut or pie), title, labels, and datasets; dataset objects must have label and numeric data arrays. Do not put business facts outside the supplied context.";
+    const context=buildContext();
+    const attachmentContext=buildAttachmentContext();
+    const messagesForModel=[{role:"system",content:system+"\n\nBUSINESS CONTEXT:\n"+JSON.stringify(context,null,2)+attachmentContext},...chatHistory,{role:"user",content:q}];
+    try{
+      const r=await fetch(OLLAMA_BASE+"/chat",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({model,messages:messagesForModel,stream:false,think:false,keep_alive:"10m",options:{num_predict:1200}})});
+      const raw=await r.text();
+      let data={}; try{data=raw?JSON.parse(raw):{};}catch(_){}
+      if(!r.ok)throw new Error(data.error||("Ollama returned HTTP "+r.status));
+      const answer=data?.message?.content?.trim()||data?.response?.trim()||"";
+      typing.remove();
+      if(!answer)throw new Error("Ollama returned no final answer."+(data?.message?.thinking?" The model returned thinking output but no final content.":""));
+      addMessage("assistant",answer);
+      chatHistory.push({role:"user",content:q},{role:"assistant",content:answer});
+      askStatus.textContent="Processed locally by "+model;
+    }catch(e){
+      typing.remove();
+      const err=addMessage("assistant","I couldn't complete that local AI request.\n\n**Technical detail:** "+(e?.message||"Unknown Ollama error"));
+      err.querySelector(".ai-msg-bubble").classList.add("ai-response-error");
+      askStatus.textContent="Local AI request failed.";
+    }finally{askBtn.disabled=!modelSelect.value;input.focus();}
+  }
+  function detectPlatform(){const ua=navigator.userAgent.toLowerCase();if(ua.includes("mac"))return "mac";if(ua.includes("win"))return "windows";if(ua.includes("linux"))return "linux";return "other";}
+  function platformInstructions(){const p=detectPlatform();if(p==="mac")return '<b>Mac:</b> Open <b>Applications → Ollama</b>. Ollama may also appear in the menu bar.';if(p==="windows")return '<b>Windows:</b> Open <b>Start → Ollama</b>. Ollama may also already be running in the system tray.';if(p==="linux")return '<b>Linux:</b> Start Ollama using your application launcher or run <code>ollama serve</code> in Terminal.';return '<b>Open Ollama</b> using the application launcher on your computer.';}
+  function showOpenHelp(){const modal=$("aiOpenOllamaModal");if(!modal)return;$("aiOpenOllamaInstructions").innerHTML=platformInstructions();modal.style.display="flex";}
+  function showCORSNote(){const el=$("ollamaTroubleshoot");if(el)el.style.display="block";}
+  function setSetupStep(n){[stepInstall,stepOpen,stepConnect].forEach((el,i)=>{if(el){el.classList.toggle("active",i===n-1);el.classList.toggle("done",i<n-1);}});}
+  async function connectOllama(opts={}){
+    setStatus("Checking…",false); setupMessage.textContent="Checking the local Ollama service…";
+    try{
+      const r=await fetch(OLLAMA_BASE+"/tags",{cache:"no-store"});
+      const raw=await r.text(); let data={}; try{data=raw?JSON.parse(raw):{};}catch(_){}
+      if(!r.ok)throw new Error(data.error||("Ollama returned HTTP "+r.status));
+      const models=Array.isArray(data.models)?data.models:[];
+      modelSelect.innerHTML="";
+      if(!models.length){const opt=document.createElement("option");opt.value="";opt.textContent="No local models found";modelSelect.appendChild(opt);setChatEnabled(false);setStatus("Ollama connected · no model",false);setupMessage.textContent="Ollama is connected, but no local model is installed.";setSetupStep(3);askStatus.textContent="Install a model in Ollama";return true;}
+      models.forEach(m=>{const opt=document.createElement("option");opt.value=m.name;opt.textContent=m.name;modelSelect.appendChild(opt);});
+      const savedModel=localStorage.getItem("crmLocalOllamaModel");
+      if(savedModel && models.some(m=>m.name===savedModel)) modelSelect.value=savedModel;
+      else if(models.some(m=>m.name==="qwen3.5:4b")) modelSelect.value="qwen3.5:4b";
+      modelSelect.disabled=false;setChatEnabled(true);setStatus("Connected · "+models.length+" model"+(models.length===1?"":"s"),true);setupMessage.textContent="Ollama is running and a local model is available. Local AI Analyst is ready.";setSetupStep(3);askStatus.textContent="Ready";return true;
+    }catch(e){
+      setChatEnabled(false);setStatus("Ollama not reachable",false);setupMessage.innerHTML="<b>Ollama is not reachable.</b> Please open Ollama and click <b>Check Connection</b> again.";setSetupStep(2);showCORSNote();if(!opts.silent)showOpenHelp();return false;
+    }
+  }
+  function clearChat(){chatHistory=[];messages.querySelectorAll(".ai-msg").forEach(x=>x.remove());if(empty)empty.style.display="block";askStatus.textContent=modelSelect.value?"Ready":"Connect Ollama to begin";messages.scrollTop=0;input.value="";input.style.height="auto";clearAttachment();input.focus();}
+  document.addEventListener("DOMContentLoaded",()=>{setChatEnabled(false);fileInput?.addEventListener("change",e=>handleFile(e.target.files?.[0]));attachBtn?.addEventListener("click",()=>fileInput?.click());fileRemove?.addEventListener("click",clearAttachment);setTimeout(()=>connectOllama({silent:true}),50);$("ollamaOpenHelpBtn")?.addEventListener("click",showOpenHelp);$("ollamaConnectBtn")?.addEventListener("click",()=>connectOllama());$("ollamaRefreshBtn")?.addEventListener("click",()=>connectOllama({silent:true}));askBtn?.addEventListener("click",askLocalAI);$("ollamaClearBtn")?.addEventListener("click",clearChat);document.querySelectorAll("[data-ai-prompt]").forEach(b=>b.addEventListener("click",()=>{input.value=b.dataset.aiPrompt;input.focus();input.style.height="auto";input.style.height=Math.min(input.scrollHeight,130)+"px";}));input?.addEventListener("keydown",e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();askLocalAI();}});input?.addEventListener("input",()=>{input.style.height="auto";input.style.height=Math.min(input.scrollHeight,130)+"px";});const modal=$("aiComingModal"),close=()=>{if(modal)modal.style.display="none"};$("aiComingClose")?.addEventListener("click",close);$("aiComingClose2")?.addEventListener("click",close);modal?.addEventListener("click",e=>{if(e.target===modal)close()});const openModal=$("aiOpenOllamaModal"),openClose=()=>{if(openModal)openModal.style.display="none"};$("aiOpenOllamaClose")?.addEventListener("click",openClose);$("aiOpenOllamaClose2")?.addEventListener("click",openClose);openModal?.addEventListener("click",e=>{if(e.target===openModal)openClose()});document.querySelectorAll("[data-ai-coming]").forEach(b=>b.addEventListener("click",()=>{$("aiComingTitle").textContent=b.dataset.aiComing+" is not available yet";modal.style.display="flex"}));});
+
+})();
+</script></body></html>
